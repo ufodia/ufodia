@@ -7,7 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="#ai--developer-workflows"><strong>AI &amp; developer tools</strong></a> &nbsp;·&nbsp;
+  <a href="#ai-assistant-skills"><strong>AI skills</strong></a> &nbsp;·&nbsp;
+  <a href="#ai--developer-workflows"><strong>Developer tools</strong></a> &nbsp;·&nbsp;
   <a href="#documents--data"><strong>Documents &amp; data</strong></a> &nbsp;·&nbsp;
   <a href="#creative--hands-on"><strong>Creative tools</strong></a> &nbsp;·&nbsp;
   <a href="#bitcoin--cryptography"><strong>Bitcoin</strong></a>
@@ -15,12 +16,19 @@
 
 ---
 
+## AI assistant skills
+
+| Skill | What it helps with |
+| :--- | :--- |
+| [**IntentWeft**](https://github.com/ufodia/intentweft) | Connect project intent to evidence and verification when AI changes code. |
+| [**Venturemorph**](https://github.com/ufodia/venturemorph) | Revisit product, growth, and brand decisions as evidence changes. |
+
+Explore each repository for its supported assistants, installation steps, and examples.
+
 ## AI & developer workflows
 
 | Project | What you can explore |
 | :--- | :--- |
-| [**IntentWeft**](https://github.com/ufodia/intentweft) | Connect project intent to evidence and verification when AI changes code. |
-| [**Venturemorph**](https://github.com/ufodia/venturemorph) | Revisit product, growth, and brand decisions as evidence changes. |
 | [**Agent Crash Lab**](https://github.com/ufodia/agent-crash-lab) | Rehearse failures and recovery patterns in simulated AI workflows. |
 | [**Hidden Ink**](https://github.com/ufodia/hidden-ink) | Inspect hidden image text before it enters an AI workflow. |
 
