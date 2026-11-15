@@ -39,7 +39,7 @@ Models select allowed review items; the application renders the recorded verdict
 
 The hosted demo is fictional and key-free. Real website checks and optional LLM calls run locally with your provider configuration.
 
-[Explore the demo](https://decision-recheck.vercel.app/) · [Inspect the source](https://github.com/ufodia/decision-recheck) · [Support maintenance ☕](https://buymeacoffee.com/ufodia)
+[Explore the demo](https://decision-recheck.vercel.app/) · [Inspect the source](https://github.com/ufodia/decision-recheck) · [Support maintenance ☕](https://buymeacoffee.com/ufodia) · [GitHub Sponsors](https://github.com/sponsors/ufodia)
 
 ---
 
