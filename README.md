@@ -29,6 +29,7 @@ Explore each repository for its supported assistants, installation steps, and ex
 
 | Project | What you can explore |
 | :--- | :--- |
+| [**Decision Recheck**](https://github.com/ufodia/decision-recheck) | Connect product promises, requirements, and task evidence; recheck owner, buyer, and marketing/support reports after a change. [Try the fictional demo](https://decision-recheck.vercel.app/). |
 | [**Agent Crash Lab**](https://github.com/ufodia/agent-crash-lab) | Rehearse failures and recovery patterns in simulated AI workflows. |
 | [**Hidden Ink**](https://github.com/ufodia/hidden-ink) | Inspect hidden image text before it enters an AI workflow. |
 
