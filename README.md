@@ -16,6 +16,29 @@
 
 ---
 
+## Featured: Decision Recheck
+
+**When the product changes, which decisions should change with it?**
+
+[Decision Recheck](https://github.com/ufodia/decision-recheck) connects product promises, buyer requirements, and scoped evidence to reviewable owner, buyer, and marketing/support reports. Save a baseline, recheck the offer, and inspect what changed.
+
+Four optional LLM roles give the review a clear structure:
+
+- **Requirements researcher** selects source-review planning priorities before task execution.
+- **Offer and support analyst** prioritizes recorded comparisons and permitted follow-ups.
+- **Evidence reviewer** prioritizes recorded decisions and scope limits.
+- **Report writer** arranges application-owned decision explanations.
+
+Models select allowed review items; the application renders the recorded verdicts and required follow-ups. A **fails** result stays **fails**, and factual documentation changes require **behavior verification first**.
+
+**Live verification · November 15, 2026:** a baseline and recheck used **eight fresh OpenAI gpt-4.1-mini responses, four per run**. HTTPX checks covered public documentation and browser text assertions, not library runtime behavior. The full local suite passed **335 tests**. [Read the test scope and evidence](https://github.com/ufodia/decision-recheck/blob/main/docs/commentary-live-validation-2026-11-15.md).
+
+The hosted demo is fictional and key-free. Real website checks and optional LLM calls run locally with your provider configuration.
+
+[Explore the demo](https://decision-recheck.vercel.app/) · [Inspect the source](https://github.com/ufodia/decision-recheck) · [Support maintenance ☕](https://buymeacoffee.com/ufodia)
+
+---
+
 ## AI assistant skills
 
 | Skill | What it helps with |
@@ -29,7 +52,7 @@ Explore each repository for its supported assistants, installation steps, and ex
 
 | Project | What you can explore |
 | :--- | :--- |
-| [**Decision Recheck**](https://github.com/ufodia/decision-recheck) | Connect product promises, requirements, and task evidence; recheck owner, buyer, and marketing/support reports after a change. [Try the fictional demo](https://decision-recheck.vercel.app/). |
+| [**Decision Recheck**](https://github.com/ufodia/decision-recheck) | Recheck product decisions against scoped evidence, with four optional LLM roles that preserve recorded verdicts. [Try the fictional demo](https://decision-recheck.vercel.app/). |
 | [**Agent Crash Lab**](https://github.com/ufodia/agent-crash-lab) | Rehearse failures and recovery patterns in simulated AI workflows. |
 | [**Hidden Ink**](https://github.com/ufodia/hidden-ink) | Inspect hidden image text before it enters an AI workflow. |
 
