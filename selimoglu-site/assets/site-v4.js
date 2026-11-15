@@ -26,6 +26,7 @@
   }
 
   const visible = () => options.filter(option => !option.hidden);
+  const horizontalTabs = () => matchMedia('(min-width:401px) and (max-width:720px)').matches;
   function count() {
     const n = visible().length;
     results.textContent = language === 'tr'
@@ -37,7 +38,7 @@
     if (!selected || selected.hidden) return;
     requestAnimationFrame(() => {
       const item = selected.getBoundingClientRect(), box = list.getBoundingClientRect();
-      if (matchMedia('(max-width:720px)').matches) {
+      if (horizontalTabs()) {
         if (item.left < box.left) list.scrollLeft += item.left - box.left;
         else if (item.right > box.right) list.scrollLeft += item.right - box.right;
       } else {
@@ -97,7 +98,9 @@
     workbench.hidden = false;
     count();
   }
-  function readProjectHash() {
+  function readProjectHash(event) {
+    // A queued anchor event must not reset search after a later filter update.
+    if (event?.newURL && new URL(event.newURL).hash !== location.hash) return;
     const id = location.hash.startsWith('#project-') ? location.hash.slice(9) : '';
     if (options.some(option => option.dataset.select === id)) {
       resetFilters();
@@ -108,7 +111,7 @@
 
   list.setAttribute('role', 'tablist');
   const orientation = () => {
-    list.setAttribute('aria-orientation', matchMedia('(max-width:720px)').matches ? 'horizontal' : 'vertical');
+    list.setAttribute('aria-orientation', horizontalTabs() ? 'horizontal' : 'vertical');
     revealSelected();
   };
   options.forEach(option => {

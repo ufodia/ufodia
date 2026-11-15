@@ -1,7 +1,7 @@
 """Build crawlable EN/TR pages and discovery files with Python's standard library.
 
 Run: python tools/build-site.py
-Edit src/page.html and assets/site-v3.js, not the generated index pages.
+Edit src/page.html and assets/site-v4.js, not the generated index pages.
 """
 from copy import deepcopy
 from dataclasses import dataclass, field

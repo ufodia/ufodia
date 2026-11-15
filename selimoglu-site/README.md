@@ -4,7 +4,7 @@ Static bilingual portfolio for https://selimoglu.org/. English lives at `/`; Tur
 
 ## Source and preview
 
-Edit `src/page.html` for content/styles and `assets/site-v3.js` for interactions, then run:
+Edit `src/page.html` for content/styles and `assets/site-v4.js` for interactions, then run:
 
 ```powershell
 python tools/build-site.py
