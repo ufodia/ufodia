@@ -88,6 +88,10 @@ Explore each repository for its supported assistants, installation steps, and ex
 | [**Paper Portal**](https://github.com/ufodia/paper-portal) | Build printable-card puzzles with a camera-driven player. [Live](https://paper-portal-three.vercel.app/). |
 | [**Boss Rehearsal**](https://github.com/ufodia/boss-rehearsal) | Author decision and timing drills from local gameplay clips. [Live](https://boss-rehearsal.vercel.app/). |
 
+## Maintenance and verification
+
+[November 15, 2026 QA and repair report](QA-REMEDIATION-2026-11-15.md): fixes, regression coverage, verified production source SHAs, and explicit test limits for the 21 web apps. Automated checks are scoped evidence; physical hardware and manual accessibility checks remain separate.
+
 ## Bitcoin & cryptography
 
 | Project | What you can explore |

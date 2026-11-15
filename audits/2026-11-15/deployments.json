@@ -1,0 +1,540 @@
+[
+  {
+    "repository": "ufodia/agent-crash-lab",
+    "main": "a8564b18fa54ef79d3ff54cb1058c4345ecff172",
+    "production": "https://agent-crash-lab-lyart.vercel.app/",
+    "deployment": {
+      "id": "dpl_FSTQX8g1fD66j2S629NwujRDvCBy",
+      "url": "agent-crash-7ir4n158f-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "a8564b18fa54ef79d3ff54cb1058c4345ecff172",
+      "gitRef": "main",
+      "gitRepo": "agent-crash-lab"
+    },
+    "ci": [
+      {
+        "id": 43753158336,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "a8564b18fa54ef79d3ff54cb1058c4345ecff172",
+        "url": "https://github.com/ufodia/agent-crash-lab/actions/runs/43753158336"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/blackout-lab",
+    "main": "511e85cbf61d4c87745612cfd56749ab5699825b",
+    "production": "https://blackout-lab.vercel.app/",
+    "deployment": {
+      "id": "dpl_C91aYFgVXvTDMEwVzMAsnusGbGn1",
+      "url": "blackout-rawvrhx0j-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "511e85cbf61d4c87745612cfd56749ab5699825b",
+      "gitRef": "main",
+      "gitRepo": "blackout-lab"
+    },
+    "ci": [
+      {
+        "id": 43753159831,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "511e85cbf61d4c87745612cfd56749ab5699825b",
+        "url": "https://github.com/ufodia/blackout-lab/actions/runs/43753159831"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/boss-rehearsal",
+    "main": "92bda67d3db79b44bbca73738aac6fc5959f98b8",
+    "production": "https://boss-rehearsal.vercel.app/",
+    "deployment": {
+      "id": "dpl_4smCcqTutFpPaFaSBpCfHvUPHeKv",
+      "url": "boss-rehearsal-j3hol6c7s-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "92bda67d3db79b44bbca73738aac6fc5959f98b8",
+      "gitRef": "main",
+      "gitRepo": "boss-rehearsal"
+    },
+    "ci": [
+      {
+        "id": 43753158295,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "92bda67d3db79b44bbca73738aac6fc5959f98b8",
+        "url": "https://github.com/ufodia/boss-rehearsal/actions/runs/43753158295"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/context-black-box",
+    "main": "ddc91b840793cb8cf3600f3c1bc59152496c721d",
+    "production": "https://context-black-box.vercel.app/",
+    "deployment": {
+      "id": "dpl_95XoiA99Wyr8oNKLEu62QG64uaX5",
+      "url": "context-black-85xe9d6tc-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "ddc91b840793cb8cf3600f3c1bc59152496c721d",
+      "gitRef": "main",
+      "gitRepo": "context-black-box"
+    },
+    "ci": [
+      {
+        "id": 43753159414,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "ddc91b840793cb8cf3600f3c1bc59152496c721d",
+        "url": "https://github.com/ufodia/context-black-box/actions/runs/43753159414"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/cutonce",
+    "main": "ffe2957be14dadc6be7976214a7c4adbccd3699c",
+    "production": "https://cutonce-five.vercel.app/",
+    "deployment": {
+      "id": "dpl_DHFFPnNXTjZy8vACQc6NSuJPQp6H",
+      "url": "cutonce-a242ktx4b-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "ffe2957be14dadc6be7976214a7c4adbccd3699c",
+      "gitRef": "main",
+      "gitRepo": "cutonce"
+    },
+    "ci": [
+      {
+        "id": 43753161347,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "ffe2957be14dadc6be7976214a7c4adbccd3699c",
+        "url": "https://github.com/ufodia/cutonce/actions/runs/43753161347"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/edit-creep",
+    "main": "2f902b015821cbbf0091e957a4cb202a989d5b50",
+    "production": "https://edit-creep.vercel.app/",
+    "deployment": {
+      "id": "dpl_FXdoXmEQHG3nLKAst85ZPpMsMXQv",
+      "url": "edit-creep-dzpx7elmm-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "2f902b015821cbbf0091e957a4cb202a989d5b50",
+      "gitRef": "main",
+      "gitRepo": "edit-creep"
+    },
+    "ci": [
+      {
+        "id": 43753494853,
+        "name": "CI",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "2f902b015821cbbf0091e957a4cb202a989d5b50",
+        "url": "https://github.com/ufodia/edit-creep/actions/runs/43753494853"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:41:19.682Z"
+  },
+  {
+    "repository": "ufodia/fact-fuse",
+    "main": "051ec36655190ddd6246682a7500bc07750fff71",
+    "production": "https://fact-fuse.vercel.app/",
+    "deployment": {
+      "id": "dpl_9f7mPu9kmryibuHyrAG7Dp1v7USk",
+      "url": "fact-fuse-phn1x0gox-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "051ec36655190ddd6246682a7500bc07750fff71",
+      "gitRef": "main",
+      "gitRepo": "fact-fuse"
+    },
+    "ci": [
+      {
+        "id": 43753191230,
+        "name": "Check",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "051ec36655190ddd6246682a7500bc07750fff71",
+        "url": "https://github.com/ufodia/fact-fuse/actions/runs/43753191230"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/ghost-words",
+    "main": "6358e0fadea7208fc55029385f9bdec88e71b97e",
+    "production": "https://ghost-words.vercel.app/",
+    "deployment": {
+      "id": "dpl_4mBynVtKtJi4XmiejSm7MAgTjQzL",
+      "url": "ghost-words-5d7ughkmh-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "6358e0fadea7208fc55029385f9bdec88e71b97e",
+      "gitRef": "main",
+      "gitRepo": "ghost-words"
+    },
+    "ci": [
+      {
+        "id": 43753189022,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "6358e0fadea7208fc55029385f9bdec88e71b97e",
+        "url": "https://github.com/ufodia/ghost-words/actions/runs/43753189022"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/handrail",
+    "main": "2ed4699ef9b5a5551b67dbe6880c437be454b759",
+    "production": "https://handrail-neon.vercel.app/",
+    "deployment": {
+      "id": "dpl_7yu4Nfm5dH6rmsmTSrwaTRBzmi9r",
+      "url": "handrail-habd5rh2a-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "2ed4699ef9b5a5551b67dbe6880c437be454b759",
+      "gitRef": "main",
+      "gitRepo": "handrail"
+    },
+    "ci": [
+      {
+        "id": 43753683724,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "2ed4699ef9b5a5551b67dbe6880c437be454b759",
+        "url": "https://github.com/ufodia/handrail/actions/runs/43753683724"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:41:19.682Z"
+  },
+  {
+    "repository": "ufodia/hidden-ink",
+    "main": "ffd22ce528a01c5a59f3cb77b285491b6e938a71",
+    "production": "https://hidden-ink-beta.vercel.app/",
+    "deployment": {
+      "id": "dpl_FJ7vRrKvd3v1vNTjAURGaPtCFe9U",
+      "url": "hidden-7hzfs1sua-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "ffd22ce528a01c5a59f3cb77b285491b6e938a71",
+      "gitRef": "main",
+      "gitRepo": "hidden-ink"
+    },
+    "ci": [
+      {
+        "id": 43753491502,
+        "name": "CI",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "ffd22ce528a01c5a59f3cb77b285491b6e938a71",
+        "url": "https://github.com/ufodia/hidden-ink/actions/runs/43753491502"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:41:19.682Z"
+  },
+  {
+    "repository": "ufodia/impossible-print",
+    "main": "1e83965023a3b310cfef52628ac8b0f0ecb7318d",
+    "production": "https://impossible-print.vercel.app/",
+    "deployment": {
+      "id": "dpl_qGFfvn798wEi3p6gTfesrSU5QA9D",
+      "url": "impossible-print-famfuea8l-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "1e83965023a3b310cfef52628ac8b0f0ecb7318d",
+      "gitRef": "main",
+      "gitRepo": "impossible-print"
+    },
+    "ci": [
+      {
+        "id": 43753214581,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "1e83965023a3b310cfef52628ac8b0f0ecb7318d",
+        "url": "https://github.com/ufodia/impossible-print/actions/runs/43753214581"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/invented-detail",
+    "main": "6030fdcb530fa5209f9330e6440e3de709bfa63f",
+    "production": "https://invented-detail.vercel.app/",
+    "deployment": {
+      "id": "dpl_5LMAwQGuWxzK7YZGqPQKMEUgjGi2",
+      "url": "invented-detail-hc1upu4bl-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "6030fdcb530fa5209f9330e6440e3de709bfa63f",
+      "gitRef": "main",
+      "gitRepo": "invented-detail"
+    },
+    "ci": [
+      {
+        "id": 43753493349,
+        "name": "CI",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "6030fdcb530fa5209f9330e6440e3de709bfa63f",
+        "url": "https://github.com/ufodia/invented-detail/actions/runs/43753493349"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:41:19.682Z"
+  },
+  {
+    "repository": "ufodia/ledger-lint",
+    "main": "b87f201d3cf7f2cfacf31789695832c059efc58c",
+    "production": "https://ledger-lint.vercel.app/",
+    "deployment": {
+      "id": "dpl_Fucwdu3NwLk6ksvr5arwpUS8oc9q",
+      "url": "ledger-lint-gnbjng1o8-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "b87f201d3cf7f2cfacf31789695832c059efc58c",
+      "gitRef": "main",
+      "gitRepo": "ledger-lint"
+    },
+    "ci": [
+      {
+        "id": 43753492350,
+        "name": "CI",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "b87f201d3cf7f2cfacf31789695832c059efc58c",
+        "url": "https://github.com/ufodia/ledger-lint/actions/runs/43753492350"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:41:19.682Z"
+  },
+  {
+    "repository": "ufodia/locale-crash",
+    "main": "ba078457a53019a70fee5f7e888370eff538ae7e",
+    "production": "https://locale-crash.vercel.app/",
+    "deployment": {
+      "id": "dpl_DG7HKpvS5c8tBsJuKo9bEye3EZD3",
+      "url": "locale-crash-i25t49zfy-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "ba078457a53019a70fee5f7e888370eff538ae7e",
+      "gitRef": "main",
+      "gitRepo": "locale-crash"
+    },
+    "ci": [
+      {
+        "id": 43753211572,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "ba078457a53019a70fee5f7e888370eff538ae7e",
+        "url": "https://github.com/ufodia/locale-crash/actions/runs/43753211572"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/memory-mirror",
+    "main": "386721e97aaa5e517b36a8cf0e06f7a550b72849",
+    "production": "https://memory-mirror-app.vercel.app/",
+    "deployment": {
+      "id": "dpl_9WmBLjBJTEoDr5rigXgRvTLwVCBo",
+      "url": "memory-mirror-32hxpr52a-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "386721e97aaa5e517b36a8cf0e06f7a550b72849",
+      "gitRef": "main",
+      "gitRepo": "memory-mirror"
+    },
+    "ci": [
+      {
+        "id": 43753492949,
+        "name": "CI",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "386721e97aaa5e517b36a8cf0e06f7a550b72849",
+        "url": "https://github.com/ufodia/memory-mirror/actions/runs/43753492949"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:41:19.682Z"
+  },
+  {
+    "repository": "ufodia/paper-portal",
+    "main": "4948429b699d1b3977890996c29efadb482fba5e",
+    "production": "https://paper-portal-three.vercel.app/",
+    "deployment": {
+      "id": "dpl_8sLZArcBV4ggRU8xtAYPRiNTXVCL",
+      "url": "paper-portal-kpe7wbgl8-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "4948429b699d1b3977890996c29efadb482fba5e",
+      "gitRef": "main",
+      "gitRepo": "paper-portal"
+    },
+    "ci": [
+      {
+        "id": 43753229423,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "4948429b699d1b3977890996c29efadb482fba5e",
+        "url": "https://github.com/ufodia/paper-portal/actions/runs/43753229423"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/paper-surgery",
+    "main": "fcda6b6eab0a82e05881ab8bcd6de7fea67f0e92",
+    "production": "https://paper-surgery.vercel.app/",
+    "deployment": {
+      "id": "dpl_96LxmbY3BK6wDphSWyQbYEDzGE1z",
+      "url": "paper-surgery-bsmacfqpj-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "fcda6b6eab0a82e05881ab8bcd6de7fea67f0e92",
+      "gitRef": "main",
+      "gitRepo": "paper-surgery"
+    },
+    "ci": [
+      {
+        "id": 43753231902,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "fcda6b6eab0a82e05881ab8bcd6de7fea67f0e92",
+        "url": "https://github.com/ufodia/paper-surgery/actions/runs/43753231902"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/poster-proof",
+    "main": "9b29a2dd6b32ebace332508448e53f850c1971f3",
+    "production": "https://poster-proof.vercel.app/",
+    "deployment": {
+      "id": "dpl_PdCbroRYrijkzPQNMZcaer6qW2i5",
+      "url": "poster-proof-53aiqocsl-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "9b29a2dd6b32ebace332508448e53f850c1971f3",
+      "gitRef": "main",
+      "gitRepo": "poster-proof"
+    },
+    "ci": [
+      {
+        "id": 43753234525,
+        "name": "Check",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "9b29a2dd6b32ebace332508448e53f850c1971f3",
+        "url": "https://github.com/ufodia/poster-proof/actions/runs/43753234525"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/sheet-sentry",
+    "main": "d5ae91d31f0ea38372442e29f3793d61d79f7cea",
+    "production": "https://sheet-sentry.vercel.app/",
+    "deployment": {
+      "id": "dpl_CtdaTFJbgjoiRFQDp3jbegWw7B1w",
+      "url": "sheet-sentry-hjnyhomrr-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "d5ae91d31f0ea38372442e29f3793d61d79f7cea",
+      "gitRef": "main",
+      "gitRepo": "sheet-sentry"
+    },
+    "ci": [
+      {
+        "id": 43753493112,
+        "name": "CI",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "d5ae91d31f0ea38372442e29f3793d61d79f7cea",
+        "url": "https://github.com/ufodia/sheet-sentry/actions/runs/43753493112"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:41:19.682Z"
+  },
+  {
+    "repository": "ufodia/source-domino",
+    "main": "3e96bdaea7b23191ea1416957cb308757ffc01de",
+    "production": "https://source-domino.vercel.app/",
+    "deployment": {
+      "id": "dpl_GrkaS9LdWVyFWojwT5mvVUEHd1fX",
+      "url": "source-domino-l2jrhhq03-milemori.vercel.app",
+      "target": "production",
+      "state": "READY",
+      "gitSha": "3e96bdaea7b23191ea1416957cb308757ffc01de",
+      "gitRef": "main",
+      "gitRepo": "source-domino"
+    },
+    "ci": [
+      {
+        "id": 43753231243,
+        "name": "Checks",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "3e96bdaea7b23191ea1416957cb308757ffc01de",
+        "url": "https://github.com/ufodia/source-domino/actions/runs/43753231243"
+      }
+    ],
+    "observedAtUtc": "2026-11-15T19:38:25.077Z"
+  },
+  {
+    "repository": "ufodia/decision-recheck",
+    "main": "ddc8695496520e1e0248820c1992f96c2f857195",
+    "production": "https://decision-recheck.vercel.app/",
+    "deployment": {
+      "id": "dpl_EgzNQdHXjCJRaBY9fFTTVTKGF3NG",
+      "url": "https://decision-recheck-n8bctpjq6-milemori.vercel.app",
+      "state": "READY",
+      "gitSha": "ddc8695496520e1e0248820c1992f96c2f857195"
+    },
+    "ci": [
+      {
+        "status": "jobs_completed",
+        "conclusion": "success",
+        "url": "https://github.com/ufodia/decision-recheck/actions/runs/43754855708",
+        "observedAtUtc": "2026-11-15T19:56:27.718Z",
+        "jobs": [
+          {
+            "name": "Python 3.12 / windows-latest",
+            "conclusion": "success"
+          },
+          {
+            "name": "Python 3.12 / ubuntu-latest",
+            "conclusion": "success"
+          }
+        ],
+        "note": "Both job results read through authenticated GitHub connector; final workflow-level response unavailable due unauthenticated API rate limit."
+      }
+    ],
+    "liveDemoTests": {
+      "command": "DRC_DEMO_URL=https://decision-recheck.vercel.app/ DRC_BROWSER_CHANNEL=chrome python -m pytest tests/test_site_demo.py -q -p no:cacheprovider",
+      "stage": "after production deploy",
+      "passed": 8,
+      "failed": 0,
+      "durationSeconds": 23.47
+    },
+    "observedAtUtc": "2026-11-15T19:54:01.769Z"
+  }
+]

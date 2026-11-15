@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-15",
+  "method": "Authenticated Search Console UI; exact production URL Inspection and Sitemaps reports",
+  "newIndividualIndexingRequests": 0,
+  "note": "Sitemap acceptance and the latest successful read are separate from a newly completed recrawl or indexing. No indexing guarantee.",
+  "observations": [
+    {
+      "url": "https://agent-crash-lab-lyart.vercel.app/",
+      "sitemap": "https://agent-crash-lab-lyart.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://blackout-lab.vercel.app/",
+      "sitemap": "https://blackout-lab.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://boss-rehearsal.vercel.app/",
+      "sitemap": "https://boss-rehearsal.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://context-black-box.vercel.app/",
+      "sitemap": "https://context-black-box.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://cutonce-five.vercel.app/",
+      "sitemap": "https://cutonce-five.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://edit-creep.vercel.app/",
+      "sitemap": "https://edit-creep.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": false,
+      "indexDetail": "Keşfedildi - şu anda dizine eklenmiş değil",
+      "sitemapResubmittedAcceptedOn": "2026-11-15",
+      "lastReadAtResubmission": "2026-11-13"
+    },
+    {
+      "url": "https://fact-fuse.vercel.app/",
+      "sitemap": "https://fact-fuse.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://ghost-words.vercel.app/",
+      "sitemap": "https://ghost-words.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://handrail-neon.vercel.app/",
+      "sitemap": "https://handrail-neon.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://hidden-ink-beta.vercel.app/",
+      "sitemap": "https://hidden-ink-beta.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": false,
+      "indexDetail": "URL Google tarafından bilinmiyor",
+      "sitemapResubmittedAcceptedOn": "2026-11-15",
+      "lastReadAtResubmission": "2026-11-15"
+    },
+    {
+      "url": "https://impossible-print.vercel.app/",
+      "sitemap": "https://impossible-print.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://invented-detail.vercel.app/",
+      "sitemap": "https://invented-detail.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": false,
+      "indexDetail": "URL Google tarafından bilinmiyor",
+      "sitemapResubmittedAcceptedOn": "2026-11-15",
+      "lastReadAtResubmission": "2026-11-15"
+    },
+    {
+      "url": "https://ledger-lint.vercel.app/",
+      "sitemap": "https://ledger-lint.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": false,
+      "indexDetail": "Keşfedildi - şu anda dizine eklenmiş değil",
+      "sitemapResubmittedAcceptedOn": "2026-11-15",
+      "lastReadAtResubmission": "2026-11-15"
+    },
+    {
+      "url": "https://locale-crash.vercel.app/",
+      "sitemap": "https://locale-crash.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://memory-mirror-app.vercel.app/",
+      "sitemap": "https://memory-mirror-app.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": false,
+      "indexDetail": "URL Google tarafından bilinmiyor",
+      "sitemapResubmittedAcceptedOn": "2026-11-15",
+      "lastReadAtResubmission": "2026-11-15"
+    },
+    {
+      "url": "https://paper-portal-three.vercel.app/",
+      "sitemap": "https://paper-portal-three.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://paper-surgery.vercel.app/",
+      "sitemap": "https://paper-surgery.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://poster-proof.vercel.app/",
+      "sitemap": "https://poster-proof.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://sheet-sentry.vercel.app/",
+      "sitemap": "https://sheet-sentry.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": false,
+      "indexDetail": "Keşfedildi - şu anda dizine eklenmiş değil",
+      "sitemapResubmittedAcceptedOn": "2026-11-15",
+      "lastReadAtResubmission": "2026-11-14"
+    },
+    {
+      "url": "https://source-domino.vercel.app/",
+      "sitemap": "https://source-domino.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://decision-recheck.vercel.app/",
+      "sitemap": "https://decision-recheck.vercel.app/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 1,
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi",
+      "sitemapResubmittedAcceptedOn": null,
+      "lastReadAtResubmission": null
+    },
+    {
+      "url": "https://selimoglu.org/",
+      "sitemap": "https://selimoglu.org/sitemap.xml",
+      "sitemapStatusReadback": "Başarılı",
+      "discoveredPages": 2,
+      "indexed": true,
+      "sitemapResubmittedAcceptedOn": "2026-11-15",
+      "lastReadAtResubmission": "2026-11-15"
+    },
+    {
+      "url": "https://selimoglu.org/tr/",
+      "indexed": true,
+      "indexDetail": "URL Google’da mevcut; sayfa dizine eklendi"
+    }
+  ]
+}
