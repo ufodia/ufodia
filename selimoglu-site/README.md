@@ -30,6 +30,8 @@ python tools/package-site.py --output site-release.zip
 
 Upload the reviewed ZIP to the cPanel document root and extract it there. It contains only public pages, discovery files and referenced assets; assets precede HTML. It excludes `src/`, `tools/`, documentation, PNG masters and unused derivatives. Preserve `nope/`, ownership verification files and unrelated server configuration. The server already provides gzip and one-week image caching; no server configuration change is required.
 
+`BingSiteAuth.xml` is Bing's public site-verification file. Keep it at the production document root; the packaging script includes it when present. It preserves Bing ownership across future deployments without connecting the Search Console account.
+
 The separately reviewed `.htaccess` preserves the existing cPanel PHP handler, redirects HTTP requests for the main hostname to HTTPS (except ACME validation), and sets one-day HSTS without subdomain or preload commitments. Apply this file separately after comparing the current server rules; the content ZIP must not overwrite server configuration. Roll back only the marked Selimoglu HTTPS block if routing fails, and verify `/`, `/tr/`, assets and ownership files from a fresh HTTPS request.
 
 After deployment, verify public HTML/asset hashes and MIME types, both languages, mobile/desktop interactions and PageSpeed results. Submit the production sitemap in Search Console and inspect changed public URLs. Keep sources, assets and recovery scripts integrated into GitHub `main` and record its remote SHA.

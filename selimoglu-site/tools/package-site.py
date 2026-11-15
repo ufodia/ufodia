@@ -28,7 +28,8 @@ assets = Assets()
 for name in ('index.html', 'tr/index.html'):
     assets.feed((ROOT / name).read_text(encoding='utf-8'))
 assets.paths.add('assets/social-share-v1.png')
-files = sorted(assets.paths) + ['robots.txt', 'llms.txt', 'sitemap.xml', 'tr/index.html', 'index.html']
+verification = ['BingSiteAuth.xml'] if (ROOT / 'BingSiteAuth.xml').is_file() else []
+files = sorted(assets.paths) + verification + ['robots.txt', 'llms.txt', 'sitemap.xml', 'tr/index.html', 'index.html']
 for name in files:
     target = (ROOT / name).resolve()
     if not target.is_relative_to(ROOT) or not target.is_file():
