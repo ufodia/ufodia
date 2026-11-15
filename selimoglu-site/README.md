@@ -4,7 +4,7 @@ Static bilingual portfolio for https://selimoglu.org/. English lives at `/`; Tur
 
 ## Source and preview
 
-Edit `src/page.html` for content/styles and `assets/site-v4.js` for interactions, then run:
+Edit `src/page.html` for content/styles and `assets/site-v5.js` for interactions, then run:
 
 ```powershell
 python tools/build-site.py
@@ -28,7 +28,7 @@ python tools/build-site.py
 python tools/package-site.py --output site-release.zip
 ```
 
-Upload the reviewed ZIP to the cPanel document root and extract it there. It contains only public pages, discovery files and referenced assets; assets precede HTML. It excludes `src/`, `tools/`, documentation, PNG masters and unused derivatives. Preserve `nope/`, ownership verification files and unrelated server configuration. The server already provides gzip and one-week image caching; no server configuration change is required.
+Upload the reviewed ZIP to the cPanel document root and extract it there. It contains only public pages, discovery files and referenced assets; assets precede HTML. It excludes `src/`, `tools/`, documentation, PNG masters and unused derivatives. Preserve `nope/`, ownership verification files, `assets/site-v3.js`, `assets/site-v4.js` and unrelated server configuration. Cached older HTML may still request those script versions. The server already provides gzip and one-week image caching; no server configuration change is required.
 
 `BingSiteAuth.xml` is Bing's public site-verification file. Keep it at the production document root; the packaging script includes it when present. It preserves Bing ownership across future deployments without connecting the Search Console account.
 

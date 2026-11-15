@@ -1,7 +1,7 @@
 """Build crawlable EN/TR pages and discovery files with Python's standard library.
 
 Run: python tools/build-site.py
-Edit src/page.html and assets/site-v4.js, not the generated index pages.
+Edit src/page.html and assets/site-v5.js, not the generated index pages.
 """
 from copy import deepcopy
 from dataclasses import dataclass, field
@@ -159,8 +159,8 @@ for language in ('en', 'tr'):
 
 (ROOT / 'sitemap.xml').write_text('''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://selimoglu.org/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://selimoglu.org/tr/</loc><lastmod>2026-11-15</lastmod></url>
+  <url><loc>https://selimoglu.org/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://selimoglu.org/tr/</loc><lastmod>2026-11-16</lastmod></url>
 </urlset>
 ''', encoding='utf-8')
 (ROOT / 'robots.txt').write_text('User-agent: *\nDisallow: /nope/\n\nSitemap: https://selimoglu.org/sitemap.xml\n', encoding='utf-8')
