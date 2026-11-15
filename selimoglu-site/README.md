@@ -1,5 +1,5 @@
-# selimoglu.org
+# Selimoglu Idea Foundry
 
-A static bilingual personal website. `index.html` and `sitemap.xml` are the production files; no build or dependencies are required. English is the default; the visitor can switch to Turkish.
+Static bilingual website for selimoglu.org. English is the default and visitors can switch to Turkish. No build or dependencies are required.
 
-Preview locally from this directory with `python -m http.server 8765`, then open `http://localhost:8765/`. Deploy the two files to the cPanel document root for selimoglu.org, preserving the existing `nope/` directory and unrelated server configuration. Do not include this README in the public document root. Update `sitemap.xml`'s `lastmod` when the homepage content changes.
+Preview from this directory with `python -m http.server 8765` and open `http://localhost:8765/`. Deploy `index.html`, `sitemap.xml`, and the complete `assets/` directory to the cPanel document root. Preserve `nope/`, existing verification files, and unrelated server configuration. Do not deploy this README. Update the sitemap `lastmod` when the homepage content changes. Concept art was generated with OpenAI image generation; the brand mark is editable SVG.
