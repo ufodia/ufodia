@@ -86,6 +86,8 @@ Detay: [search-console.json](audits/2026-11-15/search-console.json). [Google sit
 
 ## Kalan sınırlar ve sonraki düzenleme planı
 
+Bu liste ilk inceleme anındaki durumu kaydeder. Sonraki kontrast, klavye, odak ve gerçek tarayıcı yakınlaştırması onarımları ile güncel yayın kanıtları [15–16 Kasım erişilebilirlik takip raporunda](ACCESSIBILITY-REVIEW-2026-11-15.md) yer alır; gerçek ekran okuyucu ve hosting sınırları orada ayrıca belirtilir.
+
 1. Axe incomplete kontrast öğeleri ve 9 px altı etiketler tasarım bağlamıyla manuel incelenmeli. Kör toplu font büyütme yapılmadı; mevcut işlevsel kontroller ve kontrast/ad hataları onarıldı. Tam WCAG veya gerçek ekran okuyucu doğrulaması iddia edilmiyor.
 2. L4'te önerilen otomatik deployment_status workflow eklenmedi: olay URL'si tek başına canonical alias'ın doğru SHA'yı sunduğunu kanıtlamaz. Bu tur kaynak SHA/alias eşleştirmesi ve canlı test elle orkestre edildi. Gelecekte aynı kanıtı üreten sınırlı workflow tasarlanabilir.
 3. L14 GPU readPixels mesajı hata değil; işlev testleri ve fallback başarılı. Ölçülmüş performans sorunu olmadan renderer/PBO mimarisi değiştirilmedi.

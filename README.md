@@ -92,6 +92,8 @@ Explore each repository for its supported assistants, installation steps, and ex
 
 [November 15, 2026 QA and repair report](QA-REMEDIATION-2026-11-15.md): fixes, regression coverage, verified production source SHAs, and explicit test limits for the 21 web apps. Automated checks are scoped evidence; physical hardware and manual accessibility checks remain separate.
 
+[November 15–16 accessibility follow-up](ACCESSIBILITY-REVIEW-2026-11-15.md): contrast review, keyboard and focus repairs, real browser zoom, current publication evidence, and the remaining screen-reader and hosting checks.
+
 ## Bitcoin & cryptography
 
 | Project | What you can explore |

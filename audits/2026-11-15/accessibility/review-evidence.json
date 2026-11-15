@@ -1,0 +1,4137 @@
+{
+  "schemaVersion": 1,
+  "preparedAtUtc": "2026-11-15T21:28:28.126728+00:00",
+  "title": "Accessibility follow-up: scoped review and publication evidence",
+  "status": "21 exact main/CI/READY production sources and live browser suites verified; real native browser zoom completed for sampled states. Full real NVDA task flows, Selimoglu hosting update and fresh authenticated Search Console checks remain blocked.",
+  "interpretation": {
+    "conformance": "Not determined. Passing sampled checks and successful CI/deployment do not establish that all WCAG criteria or complete assistive-technology flows pass.",
+    "browserMethod": "Isolated Chrome scripted keyboard events, source/DOM/style review, screenshots, equivalent viewport reflow and preference emulation. Canonical live suites kept production CSP unmodified.",
+    "countMeaning": "Test counts are test cases, not WCAG criteria, unique barriers, complete user journeys or independent users. Different groups test different scopes. Repeated widths and fixture states are counted separately where stated.",
+    "privacy": "Only public canonical URLs, repository and deployment identities, aggregate results, synthetic/public screenshots and sanitized observations are included."
+  },
+  "publicationSnapshot": {
+    "observedAtUtc": "2026-11-15T21:27:02.576Z",
+    "ciEvidenceObservedAtUtc": "2026-11-15T21:26:56.012Z",
+    "method": "Per-record remote main SHA, canonical READY Vercel alias, exact-SHA successful push CI and live production browser suite. Observation times differ across records.",
+    "projectCount": 21,
+    "projects": [
+      {
+        "repository": "ufodia/agent-crash-lab",
+        "repositoryUrl": "https://github.com/ufodia/agent-crash-lab",
+        "mainSha": "7a4102ec0d71e202e1f1a83db48e189440318067",
+        "productionUrl": "https://agent-crash-lab-lyart.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:11.313Z",
+        "deployment": {
+          "id": "dpl_EtWgitZ59AVUycQP61hYsmRmUvYK",
+          "state": "READY",
+          "sourceSha": "7a4102ec0d71e202e1f1a83db48e189440318067",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:42:45.986Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "7a4102ec0d71e202e1f1a83db48e189440318067",
+              "url": "https://github.com/ufodia/agent-crash-lab/actions/runs/43759185415"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "A",
+          "observedAtUtc": "2026-11-15T21:27:03.168313+00:00",
+          "passed": 3,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/blackout-lab",
+        "repositoryUrl": "https://github.com/ufodia/blackout-lab",
+        "mainSha": "9184582149a51b743d5c1c5ea1c6b7c29fc6bfa5",
+        "productionUrl": "https://blackout-lab.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:16:44.392Z",
+        "deployment": {
+          "id": "dpl_HSRf2devZTjDktV51FUrULVu5e5n",
+          "state": "READY",
+          "sourceSha": "9184582149a51b743d5c1c5ea1c6b7c29fc6bfa5",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:16:40.747Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "9184582149a51b743d5c1c5ea1c6b7c29fc6bfa5",
+              "url": "https://github.com/ufodia/blackout-lab/actions/runs/43762633717"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "A",
+          "observedAtUtc": "2026-11-15T21:16:13.742827+00:00",
+          "passed": 2,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/boss-rehearsal",
+        "repositoryUrl": "https://github.com/ufodia/boss-rehearsal",
+        "mainSha": "7c5cbe96a7356b25461ea351fd26b09be7606377",
+        "productionUrl": "https://boss-rehearsal.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:14:45.756Z",
+        "deployment": {
+          "id": "dpl_3qRLg96xvQa3GZLDvddMNWdk3auQ",
+          "state": "READY",
+          "sourceSha": "7c5cbe96a7356b25461ea351fd26b09be7606377",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:14:41.774Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "7c5cbe96a7356b25461ea351fd26b09be7606377",
+              "url": "https://github.com/ufodia/boss-rehearsal/actions/runs/43762419221"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "A",
+          "observedAtUtc": "2026-11-15T21:15:53.581Z",
+          "passed": 7,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/context-black-box",
+        "repositoryUrl": "https://github.com/ufodia/context-black-box",
+        "mainSha": "3cc806726265d40f6fe490bff723b95b139c0692",
+        "productionUrl": "https://context-black-box.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:26:59.081Z",
+        "deployment": {
+          "id": "dpl_BFCi4uX4sSpTHFKoXW71YbDQ9m6W",
+          "state": "READY",
+          "sourceSha": "3cc806726265d40f6fe490bff723b95b139c0692",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:26:54.330Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "3cc806726265d40f6fe490bff723b95b139c0692",
+              "url": "https://github.com/ufodia/context-black-box/actions/runs/43763571332"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "A",
+          "observedAtUtc": "2026-11-15T21:27:03.168313+00:00",
+          "passed": 6,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/cutonce",
+        "repositoryUrl": "https://github.com/ufodia/cutonce",
+        "mainSha": "7706d973e878cdbdc7dd31598992b094f2d98ef4",
+        "productionUrl": "https://cutonce-five.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:14:45.766Z",
+        "deployment": {
+          "id": "dpl_GukkJ81TZQtouVCnZGDn6e3ZNCEE",
+          "state": "READY",
+          "sourceSha": "7706d973e878cdbdc7dd31598992b094f2d98ef4",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:13:52.509Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "7706d973e878cdbdc7dd31598992b094f2d98ef4",
+              "url": "https://github.com/ufodia/cutonce/actions/runs/43762429074"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "A",
+          "observedAtUtc": "2026-11-15T21:16:11.043Z",
+          "passed": 8,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/decision-recheck",
+        "repositoryUrl": "https://github.com/ufodia/decision-recheck",
+        "mainSha": "310b42082c302cbd7866ac388ddb83dacb0610a6",
+        "productionUrl": "https://decision-recheck.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:44:15.973Z",
+        "deployment": {
+          "id": "dpl_EUCCW64XBxYt57PDceQNCHN6szC5",
+          "state": "READY",
+          "sourceSha": "310b42082c302cbd7866ac388ddb83dacb0610a6",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:44:20.239Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "310b42082c302cbd7866ac388ddb83dacb0610a6",
+              "url": "https://github.com/ufodia/decision-recheck/actions/runs/43759342150"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "C",
+          "observedAtUtc": "2026-11-15T20:45:53.283841+00:00",
+          "passed": 8,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/edit-creep",
+        "repositoryUrl": "https://github.com/ufodia/edit-creep",
+        "mainSha": "c420ba2ae9962017a30b28b0529bb93fd3c15054",
+        "productionUrl": "https://edit-creep.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:14.881Z",
+        "deployment": {
+          "id": "dpl_Fdm7yUPkwE8c2X4AgrJwLu7eyS4K",
+          "state": "READY",
+          "sourceSha": "c420ba2ae9962017a30b28b0529bb93fd3c15054",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:42:45.953Z",
+          "runs": [
+            {
+              "name": "CI",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "c420ba2ae9962017a30b28b0529bb93fd3c15054",
+              "url": "https://github.com/ufodia/edit-creep/actions/runs/43759341553"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "C",
+          "observedAtUtc": "2026-11-15T21:16:53.887754+00:00",
+          "passed": 11,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/fact-fuse",
+        "repositoryUrl": "https://github.com/ufodia/fact-fuse",
+        "mainSha": "dd8bafacba91dcb5ddc1e8b49f986c87ea9dd2b9",
+        "productionUrl": "https://fact-fuse.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:26:59.092Z",
+        "deployment": {
+          "id": "dpl_CP1QdjXpNe8Vp7QXTpMspi1c9iPF",
+          "state": "READY",
+          "sourceSha": "dd8bafacba91dcb5ddc1e8b49f986c87ea9dd2b9",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:26:55.419Z",
+          "runs": [
+            {
+              "name": "Check",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "dd8bafacba91dcb5ddc1e8b49f986c87ea9dd2b9",
+              "url": "https://github.com/ufodia/fact-fuse/actions/runs/43763585178"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "A",
+          "observedAtUtc": "2026-11-15T21:27:03.168313+00:00",
+          "passed": 5,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/ghost-words",
+        "repositoryUrl": "https://github.com/ufodia/ghost-words",
+        "mainSha": "eb1871dd9449eddb32ea6d541ce9ded8929be58c",
+        "productionUrl": "https://ghost-words.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:22:28.730Z",
+        "deployment": {
+          "id": "dpl_6g8ozrps9TLuLL9inGKyKq6QCYwK",
+          "state": "READY",
+          "sourceSha": "eb1871dd9449eddb32ea6d541ce9ded8929be58c",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:22:24.434Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "eb1871dd9449eddb32ea6d541ce9ded8929be58c",
+              "url": "https://github.com/ufodia/ghost-words/actions/runs/43763192690"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "A",
+          "observedAtUtc": "2026-11-15T21:22:08.253Z",
+          "passed": 5,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/handrail",
+        "repositoryUrl": "https://github.com/ufodia/handrail",
+        "mainSha": "d2dcef8219fbe6ff9e2cd5ceb33b34f3d5ea9099",
+        "productionUrl": "https://handrail-neon.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:18.478Z",
+        "deployment": {
+          "id": "dpl_CxvUhRy2sy6xG1DxiBdj3CB5p9PY",
+          "state": "READY",
+          "sourceSha": "d2dcef8219fbe6ff9e2cd5ceb33b34f3d5ea9099",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:37:44.801Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "d2dcef8219fbe6ff9e2cd5ceb33b34f3d5ea9099",
+              "url": "https://github.com/ufodia/handrail/actions/runs/43758947372"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "B",
+          "observedAtUtc": "2026-11-15T21:10:51.222381+00:00",
+          "passed": 3,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/hidden-ink",
+        "repositoryUrl": "https://github.com/ufodia/hidden-ink",
+        "mainSha": "230f17acf0cfc84abe3f26998c695eb0e1c60819",
+        "productionUrl": "https://hidden-ink-beta.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:18.639Z",
+        "deployment": {
+          "id": "dpl_2as9ggwK3XEohmgLC4B9Gpvfecuc",
+          "state": "READY",
+          "sourceSha": "230f17acf0cfc84abe3f26998c695eb0e1c60819",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:42:46.385Z",
+          "runs": [
+            {
+              "name": "CI",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "230f17acf0cfc84abe3f26998c695eb0e1c60819",
+              "url": "https://github.com/ufodia/hidden-ink/actions/runs/43759341184"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "C",
+          "observedAtUtc": "2026-11-15T21:16:53.887754+00:00",
+          "passed": 11,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/impossible-print",
+        "repositoryUrl": "https://github.com/ufodia/impossible-print",
+        "mainSha": "00e9eb09fbfccb4b16e798765aa0de52ddd2b31c",
+        "productionUrl": "https://impossible-print.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:10:46.874Z",
+        "deployment": {
+          "id": "dpl_HMqvfkv7L17Hpbyy9vr3EWcTHCYz",
+          "state": "READY",
+          "sourceSha": "00e9eb09fbfccb4b16e798765aa0de52ddd2b31c",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:10:17.395Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "00e9eb09fbfccb4b16e798765aa0de52ddd2b31c",
+              "url": "https://github.com/ufodia/impossible-print/actions/runs/43762011605"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "B",
+          "observedAtUtc": "2026-11-15T21:10:51.222381+00:00",
+          "passed": 13,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/invented-detail",
+        "repositoryUrl": "https://github.com/ufodia/invented-detail",
+        "mainSha": "148b6e97ac324692860ffdb7bb76bbcb697d4eac",
+        "productionUrl": "https://invented-detail.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:21.508Z",
+        "deployment": {
+          "id": "dpl_bgBaiHagsHoNCmXWez995QttaZkQ",
+          "state": "READY",
+          "sourceSha": "148b6e97ac324692860ffdb7bb76bbcb697d4eac",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:42:46.017Z",
+          "runs": [
+            {
+              "name": "CI",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "148b6e97ac324692860ffdb7bb76bbcb697d4eac",
+              "url": "https://github.com/ufodia/invented-detail/actions/runs/43759342831"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "C",
+          "observedAtUtc": "2026-11-15T21:16:53.887754+00:00",
+          "passed": 11,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/ledger-lint",
+        "repositoryUrl": "https://github.com/ufodia/ledger-lint",
+        "mainSha": "6914a3b291a7134e60c324a0ff009b19b9b488f0",
+        "productionUrl": "https://ledger-lint.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:14:45.774Z",
+        "deployment": {
+          "id": "dpl_8nFLEjWKQffuZGgyum1NUJipPAMc",
+          "state": "READY",
+          "sourceSha": "6914a3b291a7134e60c324a0ff009b19b9b488f0",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:13:52.437Z",
+          "runs": [
+            {
+              "name": "CI",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "6914a3b291a7134e60c324a0ff009b19b9b488f0",
+              "url": "https://github.com/ufodia/ledger-lint/actions/runs/43762439010"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "C",
+          "observedAtUtc": "2026-11-15T21:16:33.115Z",
+          "passed": 14,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/locale-crash",
+        "repositoryUrl": "https://github.com/ufodia/locale-crash",
+        "mainSha": "50509ed84dbea9b50d589d8a528970d148334d92",
+        "productionUrl": "https://locale-crash.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:22.005Z",
+        "deployment": {
+          "id": "dpl_5dY1toUTrXhNEtLu4DSrXSBd4pCX",
+          "state": "READY",
+          "sourceSha": "50509ed84dbea9b50d589d8a528970d148334d92",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:36:06.920Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "50509ed84dbea9b50d589d8a528970d148334d92",
+              "url": "https://github.com/ufodia/locale-crash/actions/runs/43758950023"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "B",
+          "observedAtUtc": "2026-11-15T21:10:51.222381+00:00",
+          "passed": 3,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/memory-mirror",
+        "repositoryUrl": "https://github.com/ufodia/memory-mirror",
+        "mainSha": "608192efad03e9287d3c8eade6aad5b8d6ec1a26",
+        "productionUrl": "https://memory-mirror-app.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:22.211Z",
+        "deployment": {
+          "id": "dpl_9V7YCJBmjTW45MwXGKSPc2SPG9cB",
+          "state": "READY",
+          "sourceSha": "608192efad03e9287d3c8eade6aad5b8d6ec1a26",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:42:45.886Z",
+          "runs": [
+            {
+              "name": "CI",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "608192efad03e9287d3c8eade6aad5b8d6ec1a26",
+              "url": "https://github.com/ufodia/memory-mirror/actions/runs/43759342224"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "C",
+          "observedAtUtc": "2026-11-15T21:16:53.887754+00:00",
+          "passed": 13,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/paper-portal",
+        "repositoryUrl": "https://github.com/ufodia/paper-portal",
+        "mainSha": "7ee3edf25f8ac821f276c1fef338e0fa595df461",
+        "productionUrl": "https://paper-portal-three.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T21:10:46.887Z",
+        "deployment": {
+          "id": "dpl_H25GVjLQRRoSqykAZT7JgTwjFJrZ",
+          "state": "READY",
+          "sourceSha": "7ee3edf25f8ac821f276c1fef338e0fa595df461",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T21:10:17.706Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "7ee3edf25f8ac821f276c1fef338e0fa595df461",
+              "url": "https://github.com/ufodia/paper-portal/actions/runs/43762024545"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "B",
+          "observedAtUtc": "2026-11-15T21:10:51.222381+00:00",
+          "passed": 10,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/paper-surgery",
+        "repositoryUrl": "https://github.com/ufodia/paper-surgery",
+        "mainSha": "f9b73e37b3cac43285d166f0c051bb29c7a9bee2",
+        "productionUrl": "https://paper-surgery.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:25.346Z",
+        "deployment": {
+          "id": "dpl_4G2Hh3PGzMw4n83tXH2v9Wkmg161",
+          "state": "READY",
+          "sourceSha": "f9b73e37b3cac43285d166f0c051bb29c7a9bee2",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:37:44.560Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "f9b73e37b3cac43285d166f0c051bb29c7a9bee2",
+              "url": "https://github.com/ufodia/paper-surgery/actions/runs/43758947521"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "B",
+          "observedAtUtc": "2026-11-15T21:10:51.222381+00:00",
+          "passed": 4,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/poster-proof",
+        "repositoryUrl": "https://github.com/ufodia/poster-proof",
+        "mainSha": "9e101f7941a570790b067fbd3a4e8ce8434ffdbf",
+        "productionUrl": "https://poster-proof.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:25.647Z",
+        "deployment": {
+          "id": "dpl_Hk67QoULTeDEaknHxyjBtFUzGPfs",
+          "state": "READY",
+          "sourceSha": "9e101f7941a570790b067fbd3a4e8ce8434ffdbf",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:37:44.630Z",
+          "runs": [
+            {
+              "name": "Check",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "9e101f7941a570790b067fbd3a4e8ce8434ffdbf",
+              "url": "https://github.com/ufodia/poster-proof/actions/runs/43758948810"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "B",
+          "observedAtUtc": "2026-11-15T21:10:51.222381+00:00",
+          "passed": 5,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/sheet-sentry",
+        "repositoryUrl": "https://github.com/ufodia/sheet-sentry",
+        "mainSha": "5778d7481d3fd71f77a67805c4d93dfae0a8aefd",
+        "productionUrl": "https://sheet-sentry.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:25.810Z",
+        "deployment": {
+          "id": "dpl_6RaQMCUDcza9zQ493d7KpuTDQkBc",
+          "state": "READY",
+          "sourceSha": "5778d7481d3fd71f77a67805c4d93dfae0a8aefd",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:42:46.212Z",
+          "runs": [
+            {
+              "name": "CI",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "5778d7481d3fd71f77a67805c4d93dfae0a8aefd",
+              "url": "https://github.com/ufodia/sheet-sentry/actions/runs/43759340795"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "C",
+          "observedAtUtc": "2026-11-15T21:16:53.887754+00:00",
+          "passed": 14,
+          "failed": 0
+        }
+      },
+      {
+        "repository": "ufodia/source-domino",
+        "repositoryUrl": "https://github.com/ufodia/source-domino",
+        "mainSha": "74bc4e7632bfe69e1be55ff012aa611895d64eed",
+        "productionUrl": "https://source-domino.vercel.app/",
+        "publicationObservedAtUtc": "2026-11-15T20:40:28.396Z",
+        "deployment": {
+          "id": "dpl_74HQeGosUbMuSdifWDgAq8Agz9Pg",
+          "state": "READY",
+          "sourceSha": "74bc4e7632bfe69e1be55ff012aa611895d64eed",
+          "branch": "main"
+        },
+        "ci": {
+          "observedAtUtc": "2026-11-15T20:36:06.883Z",
+          "runs": [
+            {
+              "name": "Checks",
+              "status": "completed",
+              "conclusion": "success",
+              "headSha": "74bc4e7632bfe69e1be55ff012aa611895d64eed",
+              "url": "https://github.com/ufodia/source-domino/actions/runs/43758948551"
+            }
+          ]
+        },
+        "liveTests": {
+          "group": "B",
+          "observedAtUtc": "2026-11-15T21:10:51.222381+00:00",
+          "passed": 5,
+          "failed": 0
+        }
+      }
+    ]
+  },
+  "testSummary": {
+    "localUnitTests": {
+      "passed": 906,
+      "groups": {
+        "A": 228,
+        "B": 309,
+        "C": 369
+      },
+      "semantics": "Existing project unit suites, including regressions; not all are accessibility tests."
+    },
+    "localProductionBuilds": {
+      "passed": 20,
+      "groups": {
+        "A": 7,
+        "B": 7,
+        "C": 6
+      },
+      "staticDecisionPage": "Decision Recheck is static; its eight demo browser tests are counted below."
+    },
+    "canonicalLiveBrowserTests": {
+      "passed": 161,
+      "failed": 0,
+      "projects": 21,
+      "groups": {
+        "A": 36,
+        "B": 43,
+        "C": 82
+      },
+      "meaning": "Latest passing test cases per project; repeat runs and native zoom states are not added to this total."
+    },
+    "additionalLocalTests": {
+      "blackoutDevelopment": {
+        "passed": 6,
+        "failed": 0
+      },
+      "blackoutProduction": {
+        "passed": 6,
+        "failed": 0
+      },
+      "handrailRealExtension": {
+        "passed": 8,
+        "failed": 0
+      },
+      "scope": "Synthetic/loopback local scanner and isolated actual extension; separate from canonical live browser totals."
+    }
+  },
+  "contrastReview": {
+    "groupC": {
+      "reviewedElementStateCases": 530,
+      "measuredPassingCases": 500,
+      "decorativeExemptCases": 30,
+      "sampledFailures": 0,
+      "unresolvedMeasurements": 0,
+      "widthsCssPx": [
+        320,
+        1440
+      ],
+      "method": "Computed sRGB foreground and effective opacity compared with actual rendered backgrounds. Text glyphs were made transparent only in the test context and computed backgrounds frozen; gradients and pseudo elements remained rendered. Direct scrolled element screenshots replaced full-page geometry/scrollbar mismatches. Only aligned foreground ink pixels with at least 50% antialias coverage were sampled. Product CSS and production CSP were not weakened.",
+      "thresholds": "Normal text 4.5:1; large text and meaningful graphical symbols 3:1. Redundant decorative or inactive elements are recorded separately, not counted as measured passes.",
+      "projects": [
+        {
+          "repository": "ufodia/edit-creep",
+          "reviewedCases": 50,
+          "measuredPassingCases": 40,
+          "decorativeExemptCases": 10,
+          "sampledFailures": 0,
+          "unresolvedMeasurements": 0,
+          "minimumPassingRatio": 7.459
+        },
+        {
+          "repository": "ufodia/hidden-ink",
+          "reviewedCases": 76,
+          "measuredPassingCases": 76,
+          "decorativeExemptCases": 0,
+          "sampledFailures": 0,
+          "unresolvedMeasurements": 0,
+          "minimumPassingRatio": 6.85
+        },
+        {
+          "repository": "ufodia/invented-detail",
+          "reviewedCases": 42,
+          "measuredPassingCases": 42,
+          "decorativeExemptCases": 0,
+          "sampledFailures": 0,
+          "unresolvedMeasurements": 0,
+          "minimumPassingRatio": 7.011
+        },
+        {
+          "repository": "ufodia/ledger-lint",
+          "reviewedCases": 186,
+          "measuredPassingCases": 186,
+          "decorativeExemptCases": 0,
+          "sampledFailures": 0,
+          "unresolvedMeasurements": 0,
+          "minimumPassingRatio": 3.863
+        },
+        {
+          "repository": "ufodia/memory-mirror",
+          "reviewedCases": 69,
+          "measuredPassingCases": 69,
+          "decorativeExemptCases": 0,
+          "sampledFailures": 0,
+          "unresolvedMeasurements": 0,
+          "minimumPassingRatio": 5.989
+        },
+        {
+          "repository": "ufodia/sheet-sentry",
+          "reviewedCases": 66,
+          "measuredPassingCases": 64,
+          "decorativeExemptCases": 2,
+          "sampledFailures": 0,
+          "unresolvedMeasurements": 0,
+          "minimumPassingRatio": 4.577
+        },
+        {
+          "repository": "ufodia/decision-recheck",
+          "reviewedCases": 41,
+          "measuredPassingCases": 23,
+          "decorativeExemptCases": 18,
+          "sampledFailures": 0,
+          "unresolvedMeasurements": 0,
+          "minimumPassingRatio": 5.759
+        }
+      ]
+    },
+    "groupB": {
+      "reviewedAxeIncompleteRows": 133,
+      "semantics": "Color-contrast incomplete rows from seven projects at 1440/640/320 CSS pixels. The same DOM target at multiple widths counts multiple times. These are neither 133 unique issues nor 133 measured color pairs.",
+      "byProject": {
+        "handrail": 19,
+        "impossible-print": 6,
+        "locale-crash": 9,
+        "paper-portal": 45,
+        "paper-surgery": 6,
+        "poster-proof": 6,
+        "source-domino": 42
+      },
+      "automaticReasons": {
+        "bgGradient": 7,
+        "bgOverlap": 50,
+        "imgNode": 3,
+        "nonBmp": 36,
+        "pseudoContent": 28,
+        "shortTextContent": 9
+      },
+      "disposition": "Each row has a reviewed basis; no remaining demonstrated violation in those sampled initial states. Decorative redundant icons and images were distinguished from meaningful numerals and controls; meaningful contrast defects were repaired.",
+      "computedColorPairs": 17,
+      "computedPairsMeetingThreshold": 17,
+      "computedPairs": [
+        {
+          "case": "handrail steps",
+          "foreground": "#4d6575",
+          "background": "#e4eef6",
+          "ratio": 5.201,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "handrail example count",
+          "foreground": "#4d6575",
+          "background": "#f7dcc4",
+          "ratio": 4.656,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "impossible floor",
+          "foreground": "#47695e",
+          "background": "#dbe6df",
+          "ratio": 4.752,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "impossible wall",
+          "foreground": "#47695e",
+          "background": "#f1eee4",
+          "ratio": 5.243,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "paper card labels",
+          "foreground": "#765f85",
+          "background": "#faf7f0",
+          "ratio": 5.24,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "paper rule IDs",
+          "foreground": "#765f85",
+          "background": "#fffdfa",
+          "ratio": 5.521,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "paper chapter gradient light",
+          "foreground": "#a994c0",
+          "background": "#302641",
+          "ratio": 5.195,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "paper chapter gradient dark",
+          "foreground": "#a994c0",
+          "background": "#25203b",
+          "ratio": 5.699,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "paper heading gradient light",
+          "foreground": "#eadff4",
+          "background": "#302641",
+          "ratio": 11.06,
+          "requiredRatio": 3
+        },
+        {
+          "case": "paper paragraph gradient light",
+          "foreground": "#bba8d0",
+          "background": "#302641",
+          "ratio": 6.507,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "source label",
+          "foreground": "#526b70",
+          "background": "#fffdf8",
+          "ratio": 5.589,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "source active label",
+          "foreground": "#a9d0cf",
+          "background": "#143947",
+          "ratio": 7.392,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "source normal title",
+          "foreground": "#2d4852",
+          "background": "#fffdf8",
+          "ratio": 9.562,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "source active title",
+          "foreground": "#fffdf5",
+          "background": "#143947",
+          "ratio": 12.087,
+          "requiredRatio": 4.5
+        },
+        {
+          "case": "source citation edge",
+          "foreground": "#617e8a",
+          "background": "#fffdf8",
+          "ratio": 4.251,
+          "requiredRatio": 3
+        },
+        {
+          "case": "source overlap edge",
+          "foreground": "#9a6b3b",
+          "background": "#fffdf8",
+          "ratio": 4.55,
+          "requiredRatio": 3
+        },
+        {
+          "case": "locale rotated specimen header",
+          "foreground": "#6c5a88",
+          "background": "#eee9f6",
+          "ratio": 5.099,
+          "requiredRatio": 4.5
+        }
+      ]
+    }
+  },
+  "handrailPublishedZip": {
+    "observedAtUtc": "2026-11-15T20:37:02.569Z",
+    "url": "https://handrail-neon.vercel.app/downloads/handrail.zip",
+    "httpStatus": 200,
+    "membersCompared": 12,
+    "byteIdenticalMembers": 12,
+    "semantics": "SHA-256 of each uncompressed published ZIP member equals its reviewed local counterpart; this is byte identity, not just CRLF equivalence. It does not establish behavior in every browser or user website.",
+    "members": [
+      {
+        "name": "INSTALL.txt",
+        "sha256": "bd44571bf016b1794683a64fa0d7b3a0a17aa99aa8bd1c2da54953de90e267bf"
+      },
+      {
+        "name": "LICENSE",
+        "sha256": "89a2f3b84c4eb20cf64e5839939db661279fc3e998a1818dfa72576758001786"
+      },
+      {
+        "name": "background.js",
+        "sha256": "0c8aebd5c83b60b79da8b7f0ff94c128cef0066491e53ff04d23c6c3c405797d"
+      },
+      {
+        "name": "content.js",
+        "sha256": "db3566a97ddc5b2401c10a6bb902ca02117e778c41de3f85286d0a30ad786197"
+      },
+      {
+        "name": "icons/128.png",
+        "sha256": "b7d1ad573f0f2f82caa4827981541f06ef4253a0e961c471e8da57d58eff2af8"
+      },
+      {
+        "name": "icons/16.png",
+        "sha256": "755bdfc472cdd7ec8f40020417de19f038b3cb7b3cb263d96161f8cfd827aa87"
+      },
+      {
+        "name": "icons/32.png",
+        "sha256": "ced77de3dcf013a9f92263aa2ea954baa5ad6a5fead8899847d719a1a7f0b79d"
+      },
+      {
+        "name": "icons/48.png",
+        "sha256": "99194e401192e8d7a777148cf2f9669ab8678e9a8e86e3d2324988988f61c512"
+      },
+      {
+        "name": "manifest.json",
+        "sha256": "ba945de4ea6843a9dd62c573867790a3debf0ee030428f278f4f07a1000ea8ea"
+      },
+      {
+        "name": "popup.css",
+        "sha256": "0fde9422f62abf86da51aa97f1d9fa5ac30ed2155e9719fa858aaf37802bf93a"
+      },
+      {
+        "name": "popup.html",
+        "sha256": "248970d94533b8cfbadbfa2a8431b2d18aedb9b95041bc6be9bca58fbac6fc48"
+      },
+      {
+        "name": "popup.js",
+        "sha256": "8c5913a9301926c73dd054095ecc54de097ad6f228d568ced2c17c0a82f48753"
+      }
+    ]
+  },
+  "selimogluLocalReview": {
+    "canonicalUrls": [
+      "https://selimoglu.org/",
+      "https://selimoglu.org/tr/"
+    ],
+    "evaluatedSourceSha": "59c8cd20116af805d575e8868d15773a549bd4f8",
+    "laterSourceRepairSha": "59c8cd20116af805d575e8868d15773a549bd4f8",
+    "publication": "NOT_UPLOADED: live EN/TR still reference site-v3.js; reviewed Git main source references site-v4.js. Hosting browser control is blocked.",
+    "eightViewReview": {
+      "observedAtUtc": "2026-11-15T21:26:08.074Z",
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "widthsCssPx": [
+        320,
+        390,
+        640,
+        1280
+      ],
+      "views": 8,
+      "recordedAxeViolations": 0,
+      "pageOverflowCases": 0,
+      "previewDialogReturnFocusCases": 8,
+      "incompleteRuleGroups": [
+        {
+          "language": "en",
+          "widthCssPx": 640,
+          "rule": "color-contrast",
+          "nodeCount": 27,
+          "automaticReason": "partially obscured offscreen horizontal rail items"
+        },
+        {
+          "language": "tr",
+          "widthCssPx": 640,
+          "rule": "color-contrast",
+          "nodeCount": 27,
+          "automaticReason": "partially obscured offscreen horizontal rail items"
+        }
+      ],
+      "qualification": "Two 640px scans retain color-contrast incompletes for partially obscured horizontal-rail content; this is not a claim that every axe check resolved.",
+      "sourceSha": "59c8cd20116af805d575e8868d15773a549bd4f8",
+      "sourceFileHashes": [
+        {
+          "path": "src/page.html",
+          "sha256": "ebd82a6b5ddd6abb9800f82f546770881ca411eeb39ad16fefcd1424b641b2a4"
+        },
+        {
+          "path": "index.html",
+          "sha256": "4f519819081c55aa18bc87a1e18967cc6412c5a7d3d2726aa368bebe1c4612cb"
+        },
+        {
+          "path": "tr/index.html",
+          "sha256": "780317347ff0fdcaa11a68c1a62aea85b658e78501258fb8cd8b5919814a6633"
+        },
+        {
+          "path": "assets/site-v4.js",
+          "sha256": "ac457026e0e2f64839d1faf969dda824a91628559cb64e436f19b7cd529068fd"
+        }
+      ]
+    },
+    "twelveViewCrossReview": {
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "widthsCssPx": [
+        320,
+        400,
+        401,
+        720,
+        721,
+        1280
+      ],
+      "views": 12,
+      "lastTabFocusedAndScrolledIntoRail": 12,
+      "homeFirstTabFocused": 12,
+      "emptySearchResetFocused": 12,
+      "javascriptPageErrors": 0,
+      "tabOrientations": "vertical at <=400 and >720 CSS pixels; horizontal at 401â€“720, matching the visual rail.",
+      "skipLink": "Native hash activation leaves document.activeElement as BODY; the next Tab advances to the main Explore the projects CTA in both languages. Explicit focus on main was not claimed.",
+      "sourceSha": "725b12caaef016b56b4bf4212191341d2e6dda9e"
+    },
+    "uploadOrder": [
+      "assets/site-v4.js",
+      "tr/index.html",
+      "index.html"
+    ],
+    "preserve": "Existing site-v3.js for cached HTML; .htaccess, verification files, nope/ and unrelated assets."
+  },
+  "assistiveTechnologySnapshot": {
+    "date": "2026-11-15",
+    "screenReader": "NVDA 2026.3.1 portable",
+    "browser": "Google Chrome 157.0.8103.51",
+    "method": "Actual native Chrome keyboard input with NVDA No Speech and the real Speech Viewer; no audible voice assessment.",
+    "scope": "Selimoglu title, skip link and Elements List observed. App forms, widgets, dynamic announcements and modal task completion were not completed.",
+    "finding": "Brand link text was concatenated; a literal separating space was repaired in both source languages. This was a text-reading observation, not an audible pronunciation test.",
+    "repairMainSha": "59c8cd20116af805d575e8868d15773a549bd4f8",
+    "repairStatus": "Local generated-source regression passed; hosting publication and repeat NVDA observation pending.",
+    "completion": "Partial; native input became unavailable. No complete app AT pass, JAWS, VoiceOver or braille verification is claimed.",
+    "normalShutdown": "Only the exact task portable NVDA process exited normally via official --quit; no installation/autostart. Earlier Escape handoff superseded.",
+    "blockers": [
+      "failed to activate captured window",
+      "Computer Use helper already has an active request"
+    ]
+  },
+  "publicHttpSeoSnapshot": {
+    "observedAtUtc": "2026-11-15T21:28:27.972Z",
+    "canonicalPages": 22,
+    "pagesHttp200": 22,
+    "selfCanonicalPages": 22,
+    "sitemapsHttp200": 22,
+    "robotsHttp200": 22,
+    "urls": [
+      "https://agent-crash-lab-lyart.vercel.app/",
+      "https://blackout-lab.vercel.app/",
+      "https://boss-rehearsal.vercel.app/",
+      "https://context-black-box.vercel.app/",
+      "https://cutonce-five.vercel.app/",
+      "https://edit-creep.vercel.app/",
+      "https://fact-fuse.vercel.app/",
+      "https://ghost-words.vercel.app/",
+      "https://handrail-neon.vercel.app/",
+      "https://hidden-ink-beta.vercel.app/",
+      "https://impossible-print.vercel.app/",
+      "https://invented-detail.vercel.app/",
+      "https://ledger-lint.vercel.app/",
+      "https://locale-crash.vercel.app/",
+      "https://memory-mirror-app.vercel.app/",
+      "https://paper-portal-three.vercel.app/",
+      "https://paper-surgery.vercel.app/",
+      "https://poster-proof.vercel.app/",
+      "https://sheet-sentry.vercel.app/",
+      "https://source-domino.vercel.app/",
+      "https://decision-recheck.vercel.app/",
+      "https://selimoglu.org/"
+    ],
+    "searchConsoleStatus": "NOT_CHECKED_THIS_FOLLOWUP",
+    "qualification": "Unauthenticated public HTTP evidence only; no authenticated property, sitemap processing, URL Inspection, indexing request or indexing outcome is established."
+  },
+  "screenshots": [
+    {
+      "file": "agent-crash-keyboard-focus.jpg",
+      "alt": "Agent Crash Lab: keyboard-selected final scenario with a visible focus outline at 320 CSS pixels.",
+      "scope": "Canonical public production; source 7a4102ec0d71e202e1f1a83db48e189440318067",
+      "bytes": 33375,
+      "sha256": "2a441fa01d4fc4c731fe36a836cc4af71b24aa8774763a690abf92797bb25acb"
+    },
+    {
+      "file": "ghost-words-keyboard-focus.jpg",
+      "alt": "Ghost Words: keyboard-activated Remove line control with a visible focus outline at 320 CSS pixels.",
+      "scope": "Canonical public production; source 0779d9a945d17acbc752d8a2fba6a7def1481854",
+      "bytes": 35009,
+      "sha256": "4b619297fbf2306cdb9b42e505100fa76486e06a2ebfa0a0e7fe14e507796b1e"
+    },
+    {
+      "file": "selimoglu-local-forced-colors-320.jpg",
+      "alt": "Selimoglu local English source: selected Sheet Sentry project, visible focus and system colors at 320 CSS pixels.",
+      "scope": "Clean local source59c8cd20116af805d575e8868d15773a549bd4f8, Chrome preference emulation; not hosting publication or a Windows system theme test.",
+      "bytes": 49170,
+      "sha256": "81dc4a7cb6d349c3de47820f20c7c0cee27e118a873034d71c4a649aa45f0fbd"
+    },
+    {
+      "file": "ghost-native-zoom-before.jpg",
+      "alt": "Ghost Words before the repair: the focused Keep line control is beyond the 400% viewport.",
+      "scope": "Before repair; native Chromium400%, same public synthetic transcript boundary case.",
+      "bytes": 67186,
+      "sha256": "32bd59d92523f2ba8510b56a3e5ff045ef30c961a8dee616d2d78a21aa5648dc"
+    },
+    {
+      "file": "ghost-native-zoom-after.jpg",
+      "alt": "Ghost Words after the repair: Keep line and its focus outline are visible at native400%.",
+      "scope": "Canonical production eb1871dd9449eddb32ea6d541ce9ded8929be58c; native Chromium400%.",
+      "bytes": 72587,
+      "sha256": "4ab2cba8b5e5c4f3770577740e9077d5120b7218284a26a26823fea806a9d0fb"
+    },
+    {
+      "file": "ledger-native-zoom-after.jpg",
+      "alt": "Ledger Lint after the repair: the expanded finding intersects the native400% viewport and its focus outline is visible.",
+      "scope": "Canonical production6914a3b291a7134e60c324a0ff009b19b9b488f0; a tall finding extends beyond the viewport, so full visibility is not claimed.",
+      "bytes": 92985,
+      "sha256": "b170483dca635189b0a0a9f42efcd2b0185d7f2f40d4824724cedb32dd80f00e"
+    }
+  ],
+  "sourceEvidenceDigests": [
+    {
+      "name": "publish-verification.json",
+      "sha256": "767b779a243fa4cbf21e6d0828f9b4a6e2cbfb01642bf3680eb7185ce2238f19"
+    },
+    {
+      "name": "github-ci.json",
+      "sha256": "a1081410e91f63316c07ad666c390203aba3945aa4f9e3c061152747e8ed7cdf"
+    },
+    {
+      "name": "a-live.json",
+      "sha256": "803293811904ec4e62a07d529ab95fff6253c5f0406cd2b7fcdcefb242dc6649"
+    },
+    {
+      "name": "b-live.json",
+      "sha256": "720f7b4ef25525a05cd37824cd28be433dc0685b7ef060c1c047ac9f527c5565"
+    },
+    {
+      "name": "c-live-summary.json",
+      "sha256": "09aa8cf12917b654b13827eadcd4ed32ddcc77127a004bf3e59c51aae8511c25"
+    },
+    {
+      "name": "a.json",
+      "sha256": "3f25d291da2b7efb48f6ca26c1dd0a51b72f9dae54acd90ffc124b99930ecf74"
+    },
+    {
+      "name": "b.json",
+      "sha256": "4bd3dd781ee590c7a35a2b1e6f4d35688a40b5787a0ef18296967cac01a615fc"
+    },
+    {
+      "name": "c.json",
+      "sha256": "95c6bd0bd5475d778615546695d8b0327c1aa3777ed60f5014b6568761cdef16"
+    },
+    {
+      "name": "c-contrast-resolved.json",
+      "sha256": "b8f08c2dcb814f59f8634c71da79a59953adebd8a8a64692a052443a377c83d3"
+    },
+    {
+      "name": "handrail-live-zip.json",
+      "sha256": "7d5aa90d2a48fa38936dc74ea0586fb05ef0d783b91290dfa2b622e61a909683"
+    },
+    {
+      "name": "selimoglu-baseline.json",
+      "sha256": "3150b5f5926c85a709f2dc617c3876b2fe6f6451b0bbd1bda938f61eebd92829"
+    },
+    {
+      "name": "selimoglu-crossreview.json",
+      "sha256": "ee2803577f345c33c34065fef2f11cdf3c7d887255f4392fd2bbbb1c0ce121e9"
+    },
+    {
+      "name": "selimoglu-live-before.json",
+      "sha256": "edde221760dc708eba1610a14325f7edf995807469ff665422854160d651ad33"
+    },
+    {
+      "name": "nvda-session-partial.json",
+      "sha256": "38f2832bb3ed65e7daca1fd8723d2562989c484beaa9d425a1200c6f5619c029"
+    },
+    {
+      "name": "seo-public-check.json",
+      "sha256": "2d56a553b195bb6e5b881dcd77214274bcaa00039906c62c91d5e99808f20c92"
+    },
+    {
+      "name": "native-zoom.json",
+      "sha256": "f525310a7c75eee8a4583f7c03fffa94b8312a332956f8e99b1f320db096048b"
+    },
+    {
+      "name": "native-zoom-exact.json",
+      "sha256": "2586421080f06af86a14d2497cba1e27710d1cdecc94389325e24038cba6907f"
+    },
+    {
+      "name": "c-focus-scroll.json",
+      "sha256": "a3f314e4dc976e10f54364bbcfae30e85ba5bb7093e5117596b6e775dc89d982"
+    },
+    {
+      "name": "ghost-focus-scroll.json",
+      "sha256": "acb95c3e8ade948ffea21b9922e7d660f767903209ccfddd241c5b8f35191011"
+    },
+    {
+      "name": "final-studios-publication.json",
+      "sha256": "7506628996d55f858b717f0357108d5d8e07766b4023c28aa797e60bff0f6df7"
+    },
+    {
+      "name": "final-blackout-publication.json",
+      "sha256": "69a7f2ee2a5cc6a6ada750af62e3d77739165fe769083c60a5e48d4ad6014272"
+    },
+    {
+      "name": "c-final-live-results.json",
+      "sha256": "15a291d259dcffcab392147c0edc4ab0b9a7d75f103605a373da60ad3f6798ab"
+    },
+    {
+      "name": "ledger-zoom-local.json",
+      "sha256": "be8149d573e1a3002605084f2f5882c4b102cf821b192a39c12a00159732bdb6"
+    },
+    {
+      "name": "selimoglu-local-proof.json",
+      "sha256": "c29fcc47d8bc95e2d78c56e4355488bf3d0372681f39855c6c4a50ddeba4ad25"
+    },
+    {
+      "name": "native-zoom-summary.json",
+      "sha256": "e9690fa0dac925c4a288cbf59f7ffea27e5f6f3de1e18923f4a6bcfc18986fac"
+    },
+    {
+      "name": "native-zoom-findings.json",
+      "sha256": "1c357f34f07d49396d6412045f87d4ff6a8a9115f3a5b39f733bd1b0f1a38993"
+    },
+    {
+      "name": "native-zoom-visual-review.json",
+      "sha256": "cf0adfc9eb8d6e4d8f6d2e2b782218fb607313bd43681c3a4f0bc2a4b38a100d"
+    },
+    {
+      "name": "final-context-fact-publication.json",
+      "sha256": "97b5ef3005374b9f5b8119f01cca56239ad822bbcf127fa23a68012b59e8bf4c"
+    }
+  ],
+  "nativeBrowserZoomReview": {
+    "finishedAtUtc": "2026-11-15T21:26:25.980Z",
+    "browser": "158.0.8127.18",
+    "method": "Native Chromium chrome.tabs.setZoom(2/4), automatic per-tab mode, read back getZoom; fresh temporary persistent profile with task-local extension. viewport:null. No setViewportSize, device metrics override, pageScale, CSS zoom/transform, or user Chrome/profile access.",
+    "viewportContract": "1298x1120 outer Windows window gives exactly1280x1024 baseline content; native zoom produces640x512 and320x256. The extra18x96 are browser window frame/chrome, not page viewport emulation.",
+    "officialApi": "https://developer.chrome.com/docs/extensions/reference/api/tabs#method-setZoom",
+    "uniqueSurfaces": 24,
+    "publicStates": 46,
+    "localScannerStates": 2,
+    "totalStates": 48,
+    "pageOverflowFailures": 0,
+    "sampledOffscreenFocus": 0,
+    "sampledEntirelyCoveredFocus": 0,
+    "qualification": "Scripted native browser zoom plus visual/geometry review. Not human browser-menu operation, NVDA compatibility or full-page WCAG conformance. Long findings can exceed viewport height while visibly intersecting it.",
+    "surfaces": [
+      {
+        "name": "agent-crash-lab",
+        "url": "https://agent-crash-lab-lyart.vercel.app/",
+        "sourceSha": "7a4102ec0d71e202e1f1a83db48e189440318067",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "05Back to the futureOUT-OF-ORDER REPLY",
+              "x": 230,
+              "y": 214.875,
+              "width": 180,
+              "height": 82,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(52, 117, 103) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 306.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 215.875,
+                  "within": true,
+                  "covering": "BUTTON.scenario selected"
+                },
+                {
+                  "x": 320,
+                  "y": 255.875,
+                  "within": true,
+                  "covering": "SPAN."
+                },
+                {
+                  "x": 320,
+                  "y": 295.875,
+                  "within": true,
+                  "covering": "BUTTON.scenario selected"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "05Back to the futureOUT-OF-ORDER REPLY",
+              "x": 37,
+              "y": 86.8828125,
+              "width": 246,
+              "height": 82,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(52, 117, 103) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 763.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 87.8828125,
+                  "within": true,
+                  "covering": "BUTTON.scenario selected"
+                },
+                {
+                  "x": 160,
+                  "y": 127.8828125,
+                  "within": true,
+                  "covering": "SPAN."
+                },
+                {
+                  "x": 160,
+                  "y": 167.8828125,
+                  "within": true,
+                  "covering": "BUTTON.scenario selected"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "edit-creep",
+        "url": "https://edit-creep.vercel.app/",
+        "sourceSha": "c420ba2ae9962017a30b28b0529bb93fd3c15054",
+        "stateScope": "Keyboard-opened synthetic demo report",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Report (JSON)",
+              "x": 35,
+              "y": 461.9921875,
+              "width": 566,
+              "height": 38,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(124, 242, 200) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 3043.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 318,
+                  "y": 462.9921875,
+                  "within": true,
+                  "covering": "BUTTON.button small"
+                },
+                {
+                  "x": 318,
+                  "y": 480.9921875,
+                  "within": true,
+                  "covering": "BUTTON.button small"
+                },
+                {
+                  "x": 318,
+                  "y": 498.9921875,
+                  "within": true,
+                  "covering": "BUTTON.button small"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Report (JSON)",
+              "x": 35,
+              "y": 155.01953125,
+              "width": 246,
+              "height": 38,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(124, 242, 200) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 2928
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 158,
+                  "y": 156.01953125,
+                  "within": true,
+                  "covering": "BUTTON.button small"
+                },
+                {
+                  "x": 158,
+                  "y": 174.01953125,
+                  "within": true,
+                  "covering": "BUTTON.button small"
+                },
+                {
+                  "x": 158,
+                  "y": 192.01953125,
+                  "within": true,
+                  "covering": "BUTTON.button small"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "handrail",
+        "url": "https://handrail-neon.vercel.app/",
+        "sourceSha": "d2dcef8219fbe6ff9e2cd5ceb33b34f3d5ea9099",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "PRE",
+              "id": "",
+              "text": "Local build commands",
+              "x": 30,
+              "y": 191.984375,
+              "width": 580,
+              "height": 153.1875,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(139, 96, 64) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 2542
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 192.984375,
+                  "within": true,
+                  "covering": "PRE."
+                },
+                {
+                  "x": 320,
+                  "y": 268.578125,
+                  "within": true,
+                  "covering": "PRE."
+                },
+                {
+                  "x": 320,
+                  "y": 344.171875,
+                  "within": true,
+                  "covering": "PRE."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "PRE",
+              "id": "",
+              "text": "Local build commands",
+              "x": 24,
+              "y": 70,
+              "width": 272,
+              "height": 141.1875,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(139, 96, 64) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 3339
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 71,
+                  "within": true,
+                  "covering": "PRE."
+                },
+                {
+                  "x": 160,
+                  "y": 140.59375,
+                  "within": true,
+                  "covering": "PRE."
+                },
+                {
+                  "x": 160,
+                  "y": 210.1875,
+                  "within": true,
+                  "covering": "PRE."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "hidden-ink",
+        "url": "https://hidden-ink-beta.vercel.app/",
+        "sourceSha": "230f17acf0cfc84abe3f26998c695eb0e1c60819",
+        "stateScope": "Keyboard-opened synthetic demo report",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "lens-original",
+              "text": "Original",
+              "x": 24,
+              "y": 115.9921875,
+              "width": 75.203125,
+              "height": 34,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(255, 209, 102) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 41
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 61.6015625,
+                  "y": 116.9921875,
+                  "within": true,
+                  "covering": "BUTTON#lens-original.lens"
+                },
+                {
+                  "x": 61.6015625,
+                  "y": 132.9921875,
+                  "within": true,
+                  "covering": "BUTTON#lens-original.lens"
+                },
+                {
+                  "x": 61.6015625,
+                  "y": 148.9921875,
+                  "within": true,
+                  "covering": "BUTTON#lens-original.lens"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "lens-original",
+              "text": "Original",
+              "x": 16,
+              "y": 199,
+              "width": 75.203125,
+              "height": 34.25,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(255, 209, 102) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 0
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 53.6015625,
+                  "y": 200,
+                  "within": true,
+                  "covering": "BUTTON#lens-original.lens"
+                },
+                {
+                  "x": 53.6015625,
+                  "y": 216.125,
+                  "within": true,
+                  "covering": "BUTTON#lens-original.lens"
+                },
+                {
+                  "x": 53.6015625,
+                  "y": 232.25,
+                  "within": true,
+                  "covering": "BUTTON#lens-original.lens"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "invented-detail",
+        "url": "https://invented-detail.vercel.app/",
+        "sourceSha": "148b6e97ac324692860ffdb7bb76bbcb697d4eac",
+        "stateScope": "Keyboard-opened synthetic demo report",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "view-swipe",
+              "text": "Swipe",
+              "x": 21,
+              "y": 124.9921875,
+              "width": 125.421875,
+              "height": 33.5,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(244, 177, 131) solid 3px",
+              "boxShadow": "rgba(255, 236, 220, 0.17) 0px 0px 0px 1px inset",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 29
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 83.7109375,
+                  "y": 125.9921875,
+                  "within": true,
+                  "covering": "BUTTON#view-swipe.mode"
+                },
+                {
+                  "x": 83.7109375,
+                  "y": 141.7421875,
+                  "within": true,
+                  "covering": "BUTTON#view-swipe.mode"
+                },
+                {
+                  "x": 83.7109375,
+                  "y": 157.4921875,
+                  "within": true,
+                  "covering": "BUTTON#view-swipe.mode"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "view-swipe",
+              "text": "Swipe",
+              "x": 21,
+              "y": 222.546875,
+              "width": 73.43359375,
+              "height": 33.5,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(244, 177, 131) solid 3px",
+              "boxShadow": "rgba(255, 236, 220, 0.17) 0px 0px 0px 1px inset",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 33
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 57.716796875,
+                  "y": 223.546875,
+                  "within": true,
+                  "covering": "BUTTON#view-swipe.mode"
+                },
+                {
+                  "x": 57.716796875,
+                  "y": 239.2734375,
+                  "within": true,
+                  "covering": "BUTTON#view-swipe.mode"
+                },
+                {
+                  "x": 57.716796875,
+                  "y": 255,
+                  "within": true,
+                  "covering": "BUTTON#view-swipe.mode"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "locale-crash",
+        "url": "https://locale-crash.vercel.app/",
+        "sourceSha": "50509ed84dbea9b50d589d8a528970d148334d92",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "en-USPASSED1,234.50expected {\"amount\":1234.5}received {\"amount\":1234.5}Inspect case â†—",
+              "x": 48,
+              "y": 369.6015625,
+              "width": 266.5,
+              "height": 140.1875,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(155, 128, 199) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1080
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 181.25,
+                  "y": 370.6015625,
+                  "within": true,
+                  "covering": "BUTTON.case passed"
+                },
+                {
+                  "x": 181.25,
+                  "y": 439.6953125,
+                  "within": true,
+                  "covering": "BUTTON.case passed"
+                },
+                {
+                  "x": 181.25,
+                  "y": 508.7890625,
+                  "within": true,
+                  "covering": "BUTTON.case passed"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "en-USPASSED1,234.50expected {\"amount\":1234.5}received {\"amount\":1234.5}Inspect case â†—",
+              "x": 31,
+              "y": 105.1953125,
+              "width": 258,
+              "height": 151.8984375,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(155, 128, 199) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1503.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 106.1953125,
+                  "within": true,
+                  "covering": "BUTTON.case passed"
+                },
+                {
+                  "x": 160,
+                  "y": 180.59765625,
+                  "within": true,
+                  "covering": "BUTTON.case passed"
+                },
+                {
+                  "x": 160,
+                  "y": 255,
+                  "within": true,
+                  "covering": "BUTTON.case passed"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "memory-mirror",
+        "url": "https://memory-mirror-app.vercel.app/",
+        "sourceSha": "608192efad03e9287d3c8eade6aad5b8d6ec1a26",
+        "stateScope": "Keyboard-opened synthetic demo report",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "privacy-screen",
+              "text": "Privacy screen",
+              "x": 53,
+              "y": 126.5703125,
+              "width": 154.0703125,
+              "height": 32,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(185, 166, 255) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 378
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 130.03515625,
+                  "y": 127.5703125,
+                  "within": true,
+                  "covering": "BUTTON#privacy-screen.switch"
+                },
+                {
+                  "x": 130.03515625,
+                  "y": 142.5703125,
+                  "within": true,
+                  "covering": "BUTTON#privacy-screen.switch"
+                },
+                {
+                  "x": 130.03515625,
+                  "y": 157.5703125,
+                  "within": true,
+                  "covering": "BUTTON#privacy-screen.switch"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "privacy-screen",
+              "text": "Privacy screen",
+              "x": 37,
+              "y": 112.03125,
+              "width": 154.0703125,
+              "height": 32,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(185, 166, 255) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 507.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 114.03515625,
+                  "y": 113.03125,
+                  "within": true,
+                  "covering": "BUTTON#privacy-screen.switch"
+                },
+                {
+                  "x": 114.03515625,
+                  "y": 128.03125,
+                  "within": true,
+                  "covering": "BUTTON#privacy-screen.switch"
+                },
+                {
+                  "x": 114.03515625,
+                  "y": 143.03125,
+                  "within": true,
+                  "covering": "BUTTON#privacy-screen.switch"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "paper-surgery",
+        "url": "https://paper-surgery.vercel.app/",
+        "sourceSha": "f9b73e37b3cac43285d166f0c051bb29c7a9bee2",
+        "stateScope": "Keyboard-opened actual bundled demo PDF,26 blocks",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "TEXTAREA",
+              "id": "",
+              "text": "Text for block 1",
+              "x": 97,
+              "y": 247.0625,
+              "width": 481,
+              "height": 30,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(65, 142, 118) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1070.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 337.5,
+                  "y": 248.0625,
+                  "within": true,
+                  "covering": "TEXTAREA."
+                },
+                {
+                  "x": 337.5,
+                  "y": 262.0625,
+                  "within": true,
+                  "covering": "TEXTAREA."
+                },
+                {
+                  "x": 337.5,
+                  "y": 276.0625,
+                  "within": true,
+                  "covering": "TEXTAREA."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "TEXTAREA",
+              "id": "",
+              "text": "Text for block 1",
+              "x": 80.99609375,
+              "y": 119.0546875,
+              "width": 193.00390625,
+              "height": 30,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(65, 142, 118) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1193.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 177.498046875,
+                  "y": 120.0546875,
+                  "within": true,
+                  "covering": "TEXTAREA."
+                },
+                {
+                  "x": 177.498046875,
+                  "y": 134.0546875,
+                  "within": true,
+                  "covering": "TEXTAREA."
+                },
+                {
+                  "x": 177.498046875,
+                  "y": 148.0546875,
+                  "within": true,
+                  "covering": "TEXTAREA."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "poster-proof",
+        "url": "https://poster-proof.vercel.app/",
+        "sourceSha": "9e101f7941a570790b067fbd3a4e8ce8434ffdbf",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Mark reviewed",
+              "x": 523.7265625,
+              "y": 241.15625,
+              "width": 80.2734375,
+              "height": 30,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(189, 75, 50) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1806.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 563.86328125,
+                  "y": 242.15625,
+                  "within": true,
+                  "covering": "BUTTON.review-button"
+                },
+                {
+                  "x": 563.86328125,
+                  "y": 256.15625,
+                  "within": true,
+                  "covering": "BUTTON.review-button"
+                },
+                {
+                  "x": 563.86328125,
+                  "y": 270.15625,
+                  "within": true,
+                  "covering": "BUTTON.review-button"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Mark reviewed",
+              "x": 75,
+              "y": 112.875,
+              "width": 80.2734375,
+              "height": 30,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(189, 75, 50) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 2092.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 115.13671875,
+                  "y": 113.875,
+                  "within": true,
+                  "covering": "BUTTON.review-button"
+                },
+                {
+                  "x": 115.13671875,
+                  "y": 127.875,
+                  "within": true,
+                  "covering": "BUTTON.review-button"
+                },
+                {
+                  "x": 115.13671875,
+                  "y": 141.875,
+                  "within": true,
+                  "covering": "BUTTON.review-button"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "sheet-sentry",
+        "url": "https://sheet-sentry.vercel.app/",
+        "sourceSha": "5778d7481d3fd71f77a67805c4d93dfae0a8aefd",
+        "stateScope": "Keyboard-opened synthetic demo report",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "sheet-tab-0",
+              "text": "Revenue",
+              "x": 16,
+              "y": 409.09375,
+              "width": 105.5390625,
+              "height": 38,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(155, 229, 100) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 0
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 68.76953125,
+                  "y": 410.09375,
+                  "within": true,
+                  "covering": "BUTTON#sheet-tab-0.sheet-tab has-critical"
+                },
+                {
+                  "x": 68.76953125,
+                  "y": 428.09375,
+                  "within": true,
+                  "covering": "BUTTON#sheet-tab-0.sheet-tab has-critical"
+                },
+                {
+                  "x": 68.76953125,
+                  "y": 446.09375,
+                  "within": true,
+                  "covering": "BUTTON#sheet-tab-0.sheet-tab has-critical"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "sheet-tab-0",
+              "text": "Revenue",
+              "x": 16,
+              "y": 188.12109375,
+              "width": 105.53515625,
+              "height": 38,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(155, 229, 100) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 363.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 68.767578125,
+                  "y": 189.12109375,
+                  "within": true,
+                  "covering": "BUTTON#sheet-tab-0.sheet-tab has-critical"
+                },
+                {
+                  "x": 68.767578125,
+                  "y": 207.12109375,
+                  "within": true,
+                  "covering": "BUTTON#sheet-tab-0.sheet-tab has-critical"
+                },
+                {
+                  "x": 68.767578125,
+                  "y": 225.12109375,
+                  "within": true,
+                  "covering": "BUTTON#sheet-tab-0.sheet-tab has-critical"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "source-domino",
+        "url": "https://source-domino.vercel.app/",
+        "sourceSha": "74bc4e7632bfe69e1be55ff012aa611895d64eed",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "The original field reportlab.example",
+              "x": 39,
+              "y": 309.5390625,
+              "width": 468.609375,
+              "height": 32.5,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(189, 128, 76) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1653
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 273.3046875,
+                  "y": 310.5390625,
+                  "within": true,
+                  "covering": "STRONG."
+                },
+                {
+                  "x": 273.3046875,
+                  "y": 325.7890625,
+                  "within": true,
+                  "covering": "BUTTON.source-info"
+                },
+                {
+                  "x": 273.3046875,
+                  "y": 341.0390625,
+                  "within": true,
+                  "covering": "SPAN."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "The original field reportlab.example",
+              "x": 39,
+              "y": 179.58203125,
+              "width": 143.3984375,
+              "height": 35.5,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(189, 128, 76) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1942
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 110.69921875,
+                  "y": 180.58203125,
+                  "within": true,
+                  "covering": "STRONG."
+                },
+                {
+                  "x": 110.69921875,
+                  "y": 197.33203125,
+                  "within": true,
+                  "covering": "STRONG."
+                },
+                {
+                  "x": 110.69921875,
+                  "y": 214.08203125,
+                  "within": true,
+                  "covering": "SPAN."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "decision-recheck",
+        "url": "https://decision-recheck.vercel.app/",
+        "sourceSha": "310b42082c302cbd7866ac388ddb83dacb0610a6",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "snapshot-A",
+              "text": "AOriginal offerThe sources agree",
+              "x": 25,
+              "y": 231.671875,
+              "width": 295,
+              "height": 75,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(163, 76, 38) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1519
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 172.5,
+                  "y": 232.671875,
+                  "within": true,
+                  "covering": "BUTTON#snapshot-A."
+                },
+                {
+                  "x": 172.5,
+                  "y": 269.171875,
+                  "within": true,
+                  "covering": "BUTTON#snapshot-A."
+                },
+                {
+                  "x": 172.5,
+                  "y": 305.671875,
+                  "within": true,
+                  "covering": "BUTTON#snapshot-A."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "snapshot-A",
+              "text": "AOriginal offerThe sources agree",
+              "x": 22,
+              "y": 100.37890625,
+              "width": 138,
+              "height": 81.1484375,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(163, 76, 38) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 2010.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 91,
+                  "y": 101.37890625,
+                  "within": true,
+                  "covering": "BUTTON#snapshot-A."
+                },
+                {
+                  "x": 91,
+                  "y": 140.953125,
+                  "within": true,
+                  "covering": "SMALL."
+                },
+                {
+                  "x": 91,
+                  "y": 180.52734375,
+                  "within": true,
+                  "covering": "BUTTON#snapshot-A."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "selimoglu-en",
+        "url": "https://selimoglu.org/",
+        "sourceSha": null,
+        "stateScope": "Live portfolio, current hosted EN/TR source; not presumed to include pending Git source",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "INPUT",
+              "id": "project-search",
+              "text": "",
+              "x": 20,
+              "y": 299.109375,
+              "width": 600,
+              "height": 48,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(16, 28, 44) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1214
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 300.109375,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 320,
+                  "y": 323.109375,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 320,
+                  "y": 346.109375,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "INPUT",
+              "id": "project-search",
+              "text": "",
+              "x": 16,
+              "y": 170.8046875,
+              "width": 288,
+              "height": 48,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(16, 28, 44) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1151.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 171.8046875,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 160,
+                  "y": 194.8046875,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 160,
+                  "y": 217.8046875,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "selimoglu-tr",
+        "url": "https://selimoglu.org/tr/",
+        "sourceSha": null,
+        "stateScope": "Live portfolio, current hosted EN/TR source; not presumed to include pending Git source",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "INPUT",
+              "id": "project-search",
+              "text": "",
+              "x": 20,
+              "y": 299.109375,
+              "width": 600,
+              "height": 48,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(16, 28, 44) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1214
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 300.109375,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 320,
+                  "y": 323.109375,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 320,
+                  "y": 346.109375,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "INPUT",
+              "id": "project-search",
+              "text": "",
+              "x": 16,
+              "y": 170.8046875,
+              "width": 288,
+              "height": 48,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(16, 28, 44) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1151.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 171.8046875,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 160,
+                  "y": 194.8046875,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                },
+                {
+                  "x": 160,
+                  "y": 217.8046875,
+                  "within": true,
+                  "covering": "INPUT#project-search."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "impossible-print",
+        "url": "https://impossible-print.vercel.app/",
+        "sourceSha": "00e9eb09fbfccb4b16e798765aa0de52ddd2b31c",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Upload image PNG Â· JPEG Â· WEBP",
+              "x": 39,
+              "y": 234.8828125,
+              "width": 562,
+              "height": 42,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(91, 149, 172) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 401
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 235.8828125,
+                  "within": true,
+                  "covering": "BUTTON.upload-button"
+                },
+                {
+                  "x": 320,
+                  "y": 255.8828125,
+                  "within": true,
+                  "covering": "BUTTON.upload-button"
+                },
+                {
+                  "x": 320,
+                  "y": 275.8828125,
+                  "within": true,
+                  "covering": "BUTTON.upload-button"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Upload image PNG Â· JPEG Â· WEBP",
+              "x": 31,
+              "y": 106.8828125,
+              "width": 258,
+              "height": 42,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(91, 149, 172) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 535.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 107.8828125,
+                  "within": true,
+                  "covering": "BUTTON.upload-button"
+                },
+                {
+                  "x": 160,
+                  "y": 127.8828125,
+                  "within": true,
+                  "covering": "BUTTON.upload-button"
+                },
+                {
+                  "x": 160,
+                  "y": 147.8828125,
+                  "within": true,
+                  "covering": "BUTTON.upload-button"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "paper-portal",
+        "url": "https://paper-portal-three.vercel.app/",
+        "sourceSha": "7ee3edf25f8ac821f276c1fef338e0fa595df461",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Edit stage 01Wake the consolevisible Â· console",
+              "x": 39,
+              "y": 221.484375,
+              "width": 463,
+              "height": 69,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(161, 123, 197) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 432.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 270.5,
+                  "y": 222.484375,
+                  "within": true,
+                  "covering": "BUTTON.stage-select"
+                },
+                {
+                  "x": 270.5,
+                  "y": 255.984375,
+                  "within": true,
+                  "covering": "SPAN.stage-number"
+                },
+                {
+                  "x": 270.5,
+                  "y": 289.484375,
+                  "within": true,
+                  "covering": "BUTTON.stage-select"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Edit stage 01Wake the consolevisible Â· console",
+              "x": 33,
+              "y": 93.48046875,
+              "width": 168,
+              "height": 69,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(161, 123, 197) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 574.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 117,
+                  "y": 94.48046875,
+                  "within": true,
+                  "covering": "BUTTON.stage-select"
+                },
+                {
+                  "x": 117,
+                  "y": 127.98046875,
+                  "within": true,
+                  "covering": "STRONG."
+                },
+                {
+                  "x": 117,
+                  "y": 161.48046875,
+                  "within": true,
+                  "covering": "BUTTON.stage-select"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "boss-rehearsal",
+        "url": "https://boss-rehearsal.vercel.app/",
+        "sourceSha": "7c5cbe96a7356b25461ea351fd26b09be7606377",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "INPUT",
+              "id": "",
+              "text": "Cue time in seconds",
+              "x": 40,
+              "y": 234.09375,
+              "width": 560,
+              "height": 43.4453125,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(233, 155, 158) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1546
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 235.09375,
+                  "within": true,
+                  "covering": "INPUT."
+                },
+                {
+                  "x": 320,
+                  "y": 255.81640625,
+                  "within": true,
+                  "covering": "INPUT."
+                },
+                {
+                  "x": 320,
+                  "y": 276.5390625,
+                  "within": true,
+                  "covering": "INPUT."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "INPUT",
+              "id": "",
+              "text": "Cue time in seconds",
+              "x": 34,
+              "y": 106.22265625,
+              "width": 252,
+              "height": 43.44921875,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(233, 155, 158) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1663
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 107.22265625,
+                  "within": true,
+                  "covering": "INPUT."
+                },
+                {
+                  "x": 160,
+                  "y": 127.947265625,
+                  "within": true,
+                  "covering": "INPUT."
+                },
+                {
+                  "x": 160,
+                  "y": 148.671875,
+                  "within": true,
+                  "covering": "INPUT."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "cutonce",
+        "url": "https://cutonce-five.vercel.app/",
+        "sourceSha": "7706d973e878cdbdc7dd31598992b094f2d98ef4",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Bring an offcut photoPNG, JPEG or WebP Â· up to 8 MB+",
+              "x": 39,
+              "y": 447.484375,
+              "width": 562,
+              "height": 64.5,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(179, 103, 45) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 10.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 448.484375,
+                  "within": true,
+                  "covering": "BUTTON.upload-card"
+                },
+                {
+                  "x": 320,
+                  "y": 479.734375,
+                  "within": true,
+                  "covering": "BUTTON.upload-card"
+                },
+                {
+                  "x": 320,
+                  "y": 510.984375,
+                  "within": true,
+                  "covering": "BUTTON.upload-card"
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Bring an offcut photoPNG, JPEG or WebP Â· up to 8 MB+",
+              "x": 34,
+              "y": 91.1953125,
+              "width": 252,
+              "height": 73.5,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(179, 103, 45) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 387.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 92.1953125,
+                  "within": true,
+                  "covering": "BUTTON.upload-card"
+                },
+                {
+                  "x": 160,
+                  "y": 127.9453125,
+                  "within": true,
+                  "covering": "SMALL."
+                },
+                {
+                  "x": 160,
+                  "y": 163.6953125,
+                  "within": true,
+                  "covering": "BUTTON.upload-card"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "ledger-lint",
+        "url": "https://ledger-lint.vercel.app/",
+        "sourceSha": "6914a3b291a7134e60c324a0ff009b19b9b488f0",
+        "stateScope": "Keyboard-opened synthetic demo report",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "finding-line-amount:lines[2].netAmount",
+              "text": "âœ•1Line 3: quantity Ã— unit price12 Ã— 102.50 = 1,230.00, but the line amount is 1.23.",
+              "x": 16,
+              "y": 220.1953125,
+              "width": 608,
+              "height": 76.84375,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(138, 180, 255) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1287
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 320,
+                  "y": 221.1953125,
+                  "within": true,
+                  "covering": "BUTTON#finding-line-amount:lines[2].netAmount.finding s-error "
+                },
+                {
+                  "x": 320,
+                  "y": 258.6171875,
+                  "within": true,
+                  "covering": "SPAN.finding-body"
+                },
+                {
+                  "x": 320,
+                  "y": 296.0390625,
+                  "within": true,
+                  "covering": "BUTTON#finding-line-amount:lines[2].netAmount.finding s-error "
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "finding-line-amount:lines[2].netAmount",
+              "text": "âœ•1Line 3: quantity Ã— unit price12 Ã— 102.50 = 1,230.00, but the line amount is 1.23.Extracted1.23Expe",
+              "x": 16,
+              "y": -73.6875,
+              "width": 288,
+              "height": 403.59765625,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(138, 180, 255) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1935.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 2,
+              "points": [
+                {
+                  "x": 160,
+                  "y": 1,
+                  "within": false,
+                  "covering": "DIV.view-toggle"
+                },
+                {
+                  "x": 160,
+                  "y": 128,
+                  "within": true,
+                  "covering": "EM."
+                },
+                {
+                  "x": 160,
+                  "y": 255,
+                  "within": true,
+                  "covering": "SPAN.suggestion"
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "blackout-lab",
+        "url": "https://blackout-lab.vercel.app/",
+        "sourceSha": "9184582149a51b743d5c1c5ea1c6b7c29fc6bfa5",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "copy-install",
+              "text": "Copy commands â§‰ â€” installation instructions",
+              "x": 461.921875,
+              "y": 252.4921875,
+              "width": 132.078125,
+              "height": 35,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(255, 192, 109) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 2517
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 527.9609375,
+                  "y": 253.4921875,
+                  "within": true,
+                  "covering": "BUTTON#copy-install."
+                },
+                {
+                  "x": 527.9609375,
+                  "y": 269.9921875,
+                  "within": true,
+                  "covering": "BUTTON#copy-install."
+                },
+                {
+                  "x": 527.9609375,
+                  "y": 286.4921875,
+                  "within": true,
+                  "covering": "BUTTON#copy-install."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "copy-install",
+              "text": "Copy commands â§‰ â€” installation instructions",
+              "x": 158.92578125,
+              "y": 201.53515625,
+              "width": 128.07421875,
+              "height": 34.75,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(255, 192, 109) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 2900.25
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 222.962890625,
+                  "y": 202.53515625,
+                  "within": true,
+                  "covering": "BUTTON#copy-install."
+                },
+                {
+                  "x": 222.962890625,
+                  "y": 218.91015625,
+                  "within": true,
+                  "covering": "BUTTON#copy-install."
+                },
+                {
+                  "x": 222.962890625,
+                  "y": 235.28515625,
+                  "within": true,
+                  "covering": "BUTTON#copy-install."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "blackout-local",
+        "url": "loopback-only synthetic demo",
+        "sourceSha": "9184582149a51b743d5c1c5ea1c6b7c29fc6bfa5",
+        "stateScope": "Actual local production scanner; only its own loopback synthetic demo inspected/rehearsed",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Close image",
+              "x": 580.1953125,
+              "y": 37.3671875,
+              "width": 28,
+              "height": 28,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(255, 192, 109) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1390
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 594.1953125,
+                  "y": 38.3671875,
+                  "within": true,
+                  "covering": "BUTTON.icon-button"
+                },
+                {
+                  "x": 594.1953125,
+                  "y": 51.3671875,
+                  "within": true,
+                  "covering": "path.[object SVGAnimatedString]"
+                },
+                {
+                  "x": 594.1953125,
+                  "y": 64.3671875,
+                  "within": true,
+                  "covering": "BUTTON.icon-button"
+                }
+              ]
+            },
+            "modalReturn": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Expand experiment screenshot",
+              "x": 575,
+              "y": 241.7734375,
+              "width": 28,
+              "height": 28,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(255, 192, 109) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1390
+            }
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Close image",
+              "x": 266.59765625,
+              "y": 22.6796875,
+              "width": 28,
+              "height": 28,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(255, 192, 109) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1390
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 280.59765625,
+                  "y": 23.6796875,
+                  "within": true,
+                  "covering": "BUTTON.icon-button"
+                },
+                {
+                  "x": 280.59765625,
+                  "y": 36.6796875,
+                  "within": true,
+                  "covering": "path.[object SVGAnimatedString]"
+                },
+                {
+                  "x": 280.59765625,
+                  "y": 49.6796875,
+                  "within": true,
+                  "covering": "BUTTON.icon-button"
+                }
+              ]
+            },
+            "modalReturn": {
+              "tag": "BUTTON",
+              "id": "",
+              "text": "Expand experiment screenshot",
+              "x": 260,
+              "y": 113.90234375,
+              "width": 28,
+              "height": 28,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(255, 192, 109) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1717.25
+            }
+          }
+        ]
+      },
+      {
+        "name": "ghost-words",
+        "url": "https://ghost-words.vercel.app/",
+        "sourceSha": "eb1871dd9449eddb32ea6d541ce9ded8929be58c",
+        "stateScope": "Existing auto-loaded synthetic demo or public installation page",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "keep-cue-2",
+              "text": "Keep line",
+              "x": 42,
+              "y": 240.96875,
+              "width": 48.578125,
+              "height": 30,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(56, 129, 107) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 812.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 66.2890625,
+                  "y": 241.96875,
+                  "within": true,
+                  "covering": "BUTTON#keep-cue-2."
+                },
+                {
+                  "x": 66.2890625,
+                  "y": 255.96875,
+                  "within": true,
+                  "covering": "BUTTON#keep-cue-2."
+                },
+                {
+                  "x": 66.2890625,
+                  "y": 269.96875,
+                  "within": true,
+                  "covering": "BUTTON#keep-cue-2."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "keep-cue-2",
+              "text": "Keep line",
+              "x": 42,
+              "y": 113.09375,
+              "width": 48.57421875,
+              "height": 30,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(56, 129, 107) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1105.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 66.287109375,
+                  "y": 114.09375,
+                  "within": true,
+                  "covering": "BUTTON#keep-cue-2."
+                },
+                {
+                  "x": 66.287109375,
+                  "y": 128.09375,
+                  "within": true,
+                  "covering": "BUTTON#keep-cue-2."
+                },
+                {
+                  "x": 66.287109375,
+                  "y": 142.09375,
+                  "within": true,
+                  "covering": "BUTTON#keep-cue-2."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "context-black-box",
+        "url": "https://context-black-box.vercel.app/",
+        "sourceSha": "3cc806726265d40f6fe490bff723b95b139c0692",
+        "stateScope": "Single synthetic source excerpt pinned by keyboard; last-rule removal fallback sampled",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "pin",
+              "text": "+ Pin selection",
+              "x": 486.90625,
+              "y": 241,
+              "width": 100.09375,
+              "height": 30,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(176, 94, 39) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 636.5
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 536.953125,
+                  "y": 242,
+                  "within": true,
+                  "covering": "BUTTON#pin."
+                },
+                {
+                  "x": 536.953125,
+                  "y": 256,
+                  "within": true,
+                  "covering": "BUTTON#pin."
+                },
+                {
+                  "x": 536.953125,
+                  "y": 270,
+                  "within": true,
+                  "covering": "BUTTON#pin."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "BUTTON",
+              "id": "pin",
+              "text": "+ Pin selection",
+              "x": 197.32421875,
+              "y": 104.89453125,
+              "width": 91.67578125,
+              "height": 46,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(176, 94, 39) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 871
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 243.162109375,
+                  "y": 105.89453125,
+                  "within": true,
+                  "covering": "BUTTON#pin."
+                },
+                {
+                  "x": 243.162109375,
+                  "y": 127.89453125,
+                  "within": true,
+                  "covering": "BUTTON#pin."
+                },
+                {
+                  "x": 243.162109375,
+                  "y": 149.89453125,
+                  "within": true,
+                  "covering": "BUTTON#pin."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      },
+      {
+        "name": "fact-fuse",
+        "url": "https://fact-fuse.vercel.app/",
+        "sourceSha": "dd8bafacba91dcb5ddc1e8b49f986c87ea9dd2b9",
+        "stateScope": "Default synthetic proposal under Needs review; review all remaining findings to sample final filter fallback",
+        "states": [
+          {
+            "requestedZoom": 2,
+            "readBackZoom": 2,
+            "innerWidth": 640,
+            "innerHeight": 512,
+            "devicePixelRatio": 2,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "SELECT",
+              "id": "filter",
+              "text": "All findingsNeeds reviewReviewedQuantitiesConditionsScope and timingProtected wording",
+              "x": 50,
+              "y": 294.5078125,
+              "width": 135,
+              "height": 36,
+              "viewport": {
+                "width": 640,
+                "height": 512
+              },
+              "outline": "rgb(189, 62, 36) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1143
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 117.5,
+                  "y": 295.5078125,
+                  "within": true,
+                  "covering": "SELECT#filter."
+                },
+                {
+                  "x": 117.5,
+                  "y": 312.5078125,
+                  "within": true,
+                  "covering": "SELECT#filter."
+                },
+                {
+                  "x": 117.5,
+                  "y": 329.5078125,
+                  "within": true,
+                  "covering": "SELECT#filter."
+                }
+              ]
+            },
+            "modalReturn": null
+          },
+          {
+            "requestedZoom": 4,
+            "readBackZoom": 3.9999999999999996,
+            "innerWidth": 320,
+            "innerHeight": 256,
+            "devicePixelRatio": 4,
+            "visualViewportScale": 1,
+            "horizontalOverflowCssPx": 0,
+            "focus": {
+              "tag": "SELECT",
+              "id": "filter",
+              "text": "All findingsNeeds reviewReviewedQuantitiesConditionsScope and timingProtected wording",
+              "x": 167.5,
+              "y": 110.01953125,
+              "width": 115.5,
+              "height": 36,
+              "viewport": {
+                "width": 320,
+                "height": 256
+              },
+              "outline": "rgb(189, 62, 36) solid 3px",
+              "boxShadow": "none",
+              "visible": true,
+              "horizontalWithin": true,
+              "verticalIntersection": true,
+              "scrollX": 0,
+              "scrollY": 1879.75
+            },
+            "occlusion": {
+              "intersects": true,
+              "visiblePoints": 3,
+              "points": [
+                {
+                  "x": 225.25,
+                  "y": 111.01953125,
+                  "within": true,
+                  "covering": "SELECT#filter."
+                },
+                {
+                  "x": 225.25,
+                  "y": 128.01953125,
+                  "within": true,
+                  "covering": "SELECT#filter."
+                },
+                {
+                  "x": 225.25,
+                  "y": 145.01953125,
+                  "within": true,
+                  "covering": "SELECT#filter."
+                }
+              ]
+            },
+            "modalReturn": null
+          }
+        ]
+      }
+    ]
+  }
+}
