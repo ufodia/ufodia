@@ -40,4 +40,6 @@ After deployment, verify public HTML/asset hashes and MIME types, both languages
 
 The build publishes accurate WebSite, Organization and project ItemList JSON-LD, a two-URL sitemap and compact `llms.txt` navigation aid. The latter is a community convention, not a search-engine requirement. The robots wildcard policy preserves previous default crawler access while excluding `nope/`; it does not separately change training-crawler policy. No fabricated services, reviews, ratings, legal identity, SearchAction or agent capabilities are declared. Crawl eligibility and valid structured data do not guarantee indexing, ranking or AI citations.
 
+See [the 2026-11-15 search visibility check](SEARCH-VISIBILITY-2026-11-15.md) for verified Bing setup, sitemap processing and actual ChatGPT, Bing Copilot Search and Perplexity observations. Keep brand discovery separate from retrieval after explicitly supplying the domain.
+
 Social preview metadata is in initial HTML with a versioned 1200x630 branded image. Application-specific preview tests remain pending account sign-in at the user's request; do not report them as completed.
