@@ -1,11 +1,37 @@
 # Selimoglu Idea Foundry
 
-Static bilingual website for selimoglu.org. English is the default and visitors can switch to Turkish. No build or dependencies are required.
+Static bilingual portfolio for https://selimoglu.org/. English lives at `/`; Turkish at `/tr/`. Both contain complete visible HTML, reciprocal language alternatives and self canonical URLs. Language follows the URL, not a saved browser preference. Old `?lang=en/tr` links remain supported by the enhancement script.
 
-An explicit language choice is saved in this browser and included in the URL (`?lang=en` or `?lang=tr`) so it can be shared. With no saved choice or language parameter, the site opens in English. Project controls progressively enhance the public repository links; all projects remain available without JavaScript. Respect the visitor's reduced-motion preference.
+## Source and preview
 
-Preview from this directory with `python -m http.server 8765` and open `http://localhost:8765/`. Deploy `index.html`, `sitemap.xml`, referenced WebP/SVG assets (including `assets/projects/`), `assets/social-share-v1.png` and `assets/foundry-mark-v2-512.png` to the cPanel document root. Preserve `nope/`, existing verification files, and unrelated server configuration. Do not deploy this README, scripts or PNG masters other than the two named delivery PNGs. Update the sitemap `lastmod` when the homepage content changes. Concept art was generated with OpenAI image generation; the brand mark is editable SVG.
+Edit `src/page.html` for content/styles and `assets/site-v3.js` for interactions, then run:
 
-The twelve-project collection supports topic/name search across both languages, category filtering and keyboard project selection. Eleven projects have real screenshot previews with an accessible enlargement dialog and a link to the original image. IntentWeft links to its local setup and worked example. See `ASSETS.md` for screenshot provenance and demo verification scope.
+```powershell
+python tools/build-site.py
+python -m http.server 8765 --bind 127.0.0.1
+```
 
-Production uses the `-v2` SVG mark and responsive WebP images. Keep the source PNGs for recovery; they do not need uploading. The hero concept is a titanium ribbon evolving from filaments into an engineered S-like form; the process concept is fragments passing through glass frames into a resolved structure. Both were generated with the built-in OpenAI image tool, with no people, facility claims, text, or third-party branding.
+The build uses only Python's standard library. It generates `index.html`, `tr/index.html`, `sitemap.xml`, `robots.txt` and `llms.txt`. Do not edit generated files directly. When publishing content changes, update the sitemap's explicit last-modified date in the build script. Preview both `/` and `/tr/`.
+
+Project search works across both languages. Category filters, keyboard selection, project fragment links and native screenshot dialogs enhance the HTML. Without JavaScript, every project, screenshot, demo/source link and language link remains available. Public demo scopes and synthetic examples are described in each panel.
+
+## Images
+
+PNG masters, full-size lossless project WebPs and editorial art sources are retained for recovery. Only referenced delivery files are published. `tools/optimize-previews.py` uses Pillow to regenerate 480/800px previews, comparing lossy and lossless encodings and retaining the smaller result. Decision Recheck and Handrail use their compact full original instead of the larger 800px candidate. The full original remains available in the zoom dialog. See `ASSETS.md` for provenance and the social-card renderer.
+
+## Publication
+
+```powershell
+python tools/build-site.py
+python tools/package-site.py --output site-release.zip
+```
+
+Upload the reviewed ZIP to the cPanel document root and extract it there. It contains only public pages, discovery files and referenced assets; assets precede HTML. It excludes `src/`, `tools/`, documentation, PNG masters and unused derivatives. Preserve `nope/`, ownership verification files and unrelated server configuration. The server already provides gzip and one-week image caching; no server configuration change is required.
+
+After deployment, verify public HTML/asset hashes and MIME types, both languages, mobile/desktop interactions and PageSpeed results. Submit the production sitemap in Search Console and inspect changed public URLs. Keep sources, assets and recovery scripts integrated into GitHub `main` and record its remote SHA.
+
+## Search and AI discovery
+
+The build publishes accurate WebSite, Organization and project ItemList JSON-LD, a two-URL sitemap and compact `llms.txt` navigation aid. The latter is a community convention, not a search-engine requirement. The robots wildcard policy preserves previous default crawler access while excluding `nope/`; it does not separately change training-crawler policy. No fabricated services, reviews, ratings, legal identity, SearchAction or agent capabilities are declared. Crawl eligibility and valid structured data do not guarantee indexing, ranking or AI citations.
+
+Social preview metadata is in initial HTML with a versioned 1200x630 branded image. Application-specific preview tests remain pending account sign-in at the user's request; do not report them as completed.

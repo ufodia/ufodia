@@ -1,0 +1,24 @@
+# Selimoglu Idea Foundry
+
+> Selimoglu is an independent software and R&D atelier exploring AI review, privacy, documents and practical tools.
+
+## Website
+- [English](https://selimoglu.org/): Project collection, real interface screenshots, public demos and source links.
+- [Türkçe](https://selimoglu.org/tr/): Projeler, gerçek ekran görüntüleri, canlı demolar ve kaynak bağlantıları.
+
+## Public projects
+- [Decision Recheck](https://github.com/ufodia/decision-recheck): Compare a product promise with its requirements and evidence, then inspect the decision from different perspectives.
+- [IntentWeft](https://github.com/ufodia/intentweft): A portable local skill for reviewing intent, evidence and verification in AI-assisted code changes, with a Python helper.
+- [Sheet Sentry](https://github.com/ufodia/sheet-sentry): Inspect changes to spreadsheet formulas and values after AI edits, with before-and-after context.
+- [CutOnce](https://github.com/ufodia/cutonce): Plan rectangular pieces on irregular material and inspect a proposed cutting layout.
+- [Agent Crash Lab](https://github.com/ufodia/agent-crash-lab): Explore how a simulated workflow responds to a failure under different recovery policies.
+- [Handrail](https://github.com/ufodia/handrail): A browser extension that guides user actions through a recorded sequence, while the user stays in control.
+- [Boss Rehearsal](https://github.com/ufodia/boss-rehearsal): Turn gameplay clips into decision and timing drills.
+- [Fact Fuse](https://github.com/ufodia/fact-fuse): Review changed numbers, dates, links and promises in AI rewrites.
+- [Invented Detail](https://github.com/ufodia/invented-detail): Examine added detail and disagreements in photo restoration.
+- [LocaleCrash](https://github.com/ufodia/locale-crash): Explore English and Turkish regressions in structured-output parsing.
+- [Paper Surgery](https://github.com/ufodia/paper-surgery): Repair PDF reading order and extracted text before using them with AI.
+- [Memory Mirror](https://github.com/ufodia/memory-mirror): Review sensitive details in AI chat exports locally.
+
+## Context
+The website labels conceptual artwork separately from real project screenshots. Hosted demos use examples; IntentWeft is a local developer skill/CLI with setup and worked-review links. Project panels explain limitations. This file is a concise navigation aid, not a guarantee of indexing or AI citation.

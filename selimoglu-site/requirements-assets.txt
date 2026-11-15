@@ -1,0 +1,2 @@
+# Optional, for regenerating responsive project screenshots only.
+Pillow==12.2.0

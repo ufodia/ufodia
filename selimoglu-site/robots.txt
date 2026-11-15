@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /nope/
+
+Sitemap: https://selimoglu.org/sitemap.xml
