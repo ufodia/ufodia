@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <a href="https://selimoglu.org/"><strong>Selimoglu Idea Foundry</strong></a> is an independent software and R&amp;D atelier showcasing a selection of these projects, with demos and source links.
+</p>
+
+<p align="center">
   <a href="#ai-assistant-skills"><strong>AI skills</strong></a> &nbsp;·&nbsp;
   <a href="#ai--developer-workflows"><strong>Developer tools</strong></a> &nbsp;·&nbsp;
   <a href="#documents--data"><strong>Documents &amp; data</strong></a> &nbsp;·&nbsp;

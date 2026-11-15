@@ -166,11 +166,12 @@ for language in ('en', 'tr'):
 (ROOT / 'robots.txt').write_text('User-agent: *\nDisallow: /nope/\n\nSitemap: https://selimoglu.org/sitemap.xml\n', encoding='utf-8')
 overview = '''# Selimoglu Idea Foundry
 
-> Selimoglu is an independent software and R&D atelier exploring AI review, privacy, documents and practical tools.
+> Selimoglu Idea Foundry is an independent software and R&D atelier exploring AI review, privacy, documents and practical tools.
 
 ## Website
 - [English](https://selimoglu.org/): Project collection, real interface screenshots, public demos and source links.
 - [Türkçe](https://selimoglu.org/tr/): Projeler, gerçek ekran görüntüleri, canlı demolar ve kaynak bağlantıları.
+- [Project source on GitHub](https://github.com/ufodia): Repositories for the public projects linked from this website.
 
 ## Public projects
 '''
