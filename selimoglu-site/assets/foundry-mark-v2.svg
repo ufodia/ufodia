@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="title desc">
+  <title id="title">Selimoglu Idea Foundry</title>
+  <desc id="desc">A small chartreuse seed becomes a solid, faceted S: an idea taking form.</desc>
+  <rect x=".5" y=".5" width="79" height="79" rx="15.5" fill="#121c31" stroke="#f3f0e8" stroke-opacity=".2"/>
+  <path d="M58 16H30L17 29V39L45 49H51V53L46 58H22V66H50L63 53V43L35 33H29V29L34 24H58Z" fill="#f3f0e8"/>
+  <rect x="60" y="8" width="10" height="10" rx="1" fill="#d6ec69"/>
+</svg>
