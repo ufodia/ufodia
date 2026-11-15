@@ -13,6 +13,8 @@ python -m http.server 8765 --bind 127.0.0.1
 
 The build uses only Python's standard library. It generates `index.html`, `tr/index.html`, `sitemap.xml`, `robots.txt` and `llms.txt`. Do not edit generated files directly. When publishing content changes, update the sitemap's explicit last-modified date in the build script. Preview both `/` and `/tr/`.
 
+This repository directory is the canonical source. The earlier standalone `buy_me_coffee/selimoglu-site` folder is a historical copy, not a publication source.
+
 Project search works across both languages. Category filters, keyboard selection, project fragment links and native screenshot dialogs enhance the HTML. Without JavaScript, every project, screenshot, demo/source link and language link remains available. Public demo scopes and synthetic examples are described in each panel.
 
 ## Images
@@ -27,6 +29,8 @@ python tools/package-site.py --output site-release.zip
 ```
 
 Upload the reviewed ZIP to the cPanel document root and extract it there. It contains only public pages, discovery files and referenced assets; assets precede HTML. It excludes `src/`, `tools/`, documentation, PNG masters and unused derivatives. Preserve `nope/`, ownership verification files and unrelated server configuration. The server already provides gzip and one-week image caching; no server configuration change is required.
+
+The separately reviewed `.htaccess` preserves the existing cPanel PHP handler, redirects HTTP requests for the main hostname to HTTPS (except ACME validation), and sets one-day HSTS without subdomain or preload commitments. Apply this file separately after comparing the current server rules; the content ZIP must not overwrite server configuration. Roll back only the marked Selimoglu HTTPS block if routing fails, and verify `/`, `/tr/`, assets and ownership files from a fresh HTTPS request.
 
 After deployment, verify public HTML/asset hashes and MIME types, both languages, mobile/desktop interactions and PageSpeed results. Submit the production sitemap in Search Console and inspect changed public URLs. Keep sources, assets and recovery scripts integrated into GitHub `main` and record its remote SHA.
 

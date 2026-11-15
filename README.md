@@ -52,28 +52,37 @@ Explore each repository for its supported assistants, installation steps, and ex
 
 | Project | What you can explore |
 | :--- | :--- |
-| [**Decision Recheck**](https://github.com/ufodia/decision-recheck) | Recheck product decisions against scoped evidence, with four optional LLM roles that preserve recorded verdicts. [Try the fictional demo](https://decision-recheck.vercel.app/). |
-| [**Agent Crash Lab**](https://github.com/ufodia/agent-crash-lab) | Rehearse failures and recovery patterns in simulated AI workflows. |
-| [**Hidden Ink**](https://github.com/ufodia/hidden-ink) | Inspect hidden image text before it enters an AI workflow. |
+| [**Decision Recheck**](https://github.com/ufodia/decision-recheck) | Review product promises against scoped evidence. The hosted demo is fictional. [Live](https://decision-recheck.vercel.app/). |
+| [**Agent Crash Lab**](https://github.com/ufodia/agent-crash-lab) | Rehearse simulated workflow failures and recovery. [Live](https://agent-crash-lab-lyart.vercel.app/). |
+| [**Blackout Lab**](https://github.com/ufodia/blackout-lab) | Install the local dependency-failure scanner. [Live](https://blackout-lab.vercel.app/). |
+| [**Context Black Box**](https://github.com/ufodia/context-black-box) | Review source rules that a summary may have lost or changed. [Live](https://context-black-box.vercel.app/). |
+| [**Handrail**](https://github.com/ufodia/handrail) | Install a local extension for recording and following on-page guides. [Live](https://handrail-neon.vercel.app/). |
+| [**Memory Mirror**](https://github.com/ufodia/memory-mirror) | Review sensitive details in supported chat exports locally. [Live](https://memory-mirror-app.vercel.app/). |
+| [**LocaleCrash**](https://github.com/ufodia/locale-crash) | Check paired English and Turkish structured responses. [Live](https://locale-crash.vercel.app/). |
 
 ## Documents & data
 
 | Project | What you can explore |
 | :--- | :--- |
-| [**Sheet Sentry**](https://github.com/ufodia/sheet-sentry) | Review spreadsheet formulas and changes after AI edits. |
-| [**Fact Fuse**](https://github.com/ufodia/fact-fuse) | Compare a source and rewrite for changed numbers, conditions, and claims. |
-| [**Ledger Lint**](https://github.com/ufodia/ledger-lint) | Check extracted invoice numbers for arithmetic inconsistencies. |
-| [**Paper Surgery**](https://github.com/ufodia/paper-surgery) | Repair extracted PDF text before using it with an AI assistant. |
-| [**SourceDomino**](https://github.com/ufodia/source-domino) | Explore citation links and shared wording between sources. |
+| [**Sheet Sentry**](https://github.com/ufodia/sheet-sentry) | Compare workbook formulas, structure and input changes. [Live](https://sheet-sentry.vercel.app/). |
+| [**Fact Fuse**](https://github.com/ufodia/fact-fuse) | Compare a rewrite for changed quantities, conditions and wording. [Live](https://fact-fuse.vercel.app/). |
+| [**Ledger Lint**](https://github.com/ufodia/ledger-lint) | Check arithmetic and identifiers in extracted invoice data. [Live](https://ledger-lint.vercel.app/). |
+| [**Paper Surgery**](https://github.com/ufodia/paper-surgery) | Repair PDF reading order and export reviewed text. [Live](https://paper-surgery.vercel.app/). |
+| [**SourceDomino**](https://github.com/ufodia/source-domino) | Map citations and shared passages across supplied sources. [Live](https://source-domino.vercel.app/). |
+| [**GhostWords**](https://github.com/ufodia/ghost-words) | Review suspicious transcript cues against local audio. [Live](https://ghost-words.vercel.app/). |
+| [**PosterProof**](https://github.com/ufodia/poster-proof) | Compare poster text and QR content with an approved reference. [Live](https://poster-proof.vercel.app/). |
 
 ## Creative & hands-on
 
 | Project | What you can explore |
 | :--- | :--- |
-| [**CutOnce**](https://github.com/ufodia/cutonce) | Plan parts inside an irregular offcut of material. |
-| [**Impossible Print**](https://github.com/ufodia/impossible-print) | Create perspective artwork that comes together from one viewpoint. |
-| [**Paper Portal**](https://github.com/ufodia/paper-portal) | Turn printable cards into interactive, camera-driven puzzles. |
-| [**Boss Rehearsal**](https://github.com/ufodia/boss-rehearsal) | Turn your gameplay clips into decision and timing drills. |
+| [**Hidden Ink**](https://github.com/ufodia/hidden-ink) | Inspect images for supported hidden-text techniques. [Live](https://hidden-ink-beta.vercel.app/). |
+| [**Edit Creep**](https://github.com/ufodia/edit-creep) | Review image edits outside a chosen region. [Live](https://edit-creep.vercel.app/). |
+| [**Invented Detail**](https://github.com/ufodia/invented-detail) | Map restoration details supported or contradicted by the source. [Live](https://invented-detail.vercel.app/). |
+| [**CutOnce**](https://github.com/ufodia/cutonce) | Plan rectangular parts in an irregular material offcut. [Live](https://cutonce-five.vercel.app/). |
+| [**Impossible Print**](https://github.com/ufodia/impossible-print) | Prepare measured wall/floor perspective artwork. [Live](https://impossible-print.vercel.app/). |
+| [**Paper Portal**](https://github.com/ufodia/paper-portal) | Build printable-card puzzles with a camera-driven player. [Live](https://paper-portal-three.vercel.app/). |
+| [**Boss Rehearsal**](https://github.com/ufodia/boss-rehearsal) | Author decision and timing drills from local gameplay clips. [Live](https://boss-rehearsal.vercel.app/). |
 
 ## Bitcoin & cryptography
 
