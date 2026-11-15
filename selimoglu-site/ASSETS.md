@@ -16,4 +16,28 @@ Create a premium editorial still life about structured thinking: translucent gla
 
 Files: `foundry-process-v2.png`, `foundry-process-v2.webp`, `foundry-process-v2-800.webp`.
 
-Do not deploy this document or the PNG masters. Production references the responsive WebP files and SVG mark only.
+## Real project screenshots
+
+The project previews are genuine interface screenshots from the projects' public GitHub repositories, retrieved on 2026-11-15. They are not generated mockups. PNG masters are retained under `assets/projects/`; lossless WebP copies are used on the website. Their decoded RGB pixels were compared with the masters. Demo examples are synthetic. The Handrail screenshot shows the installed extension; the website links to its public practice page and explains the installation requirement.
+
+Each source below is relative to `https://github.com/ufodia/<repository>/blob/main/`.
+
+| Website asset | Repository | Original screenshot |
+| --- | --- | --- |
+| decision-recheck.webp | decision-recheck | assets/demo-buyer.png |
+| sheet-sentry.webp | sheet-sentry | docs/assets/screenshot-review.png |
+| cutonce.webp | cutonce | docs/assets/workspace.png |
+| agent-crash-lab.webp | agent-crash-lab | docs/assets/screenshot.png |
+| handrail.webp | handrail | docs/assets/workspace.png |
+| boss-rehearsal.webp | boss-rehearsal | docs/assets/workspace.png |
+| fact-fuse.webp | fact-fuse | docs/assets/screenshot.png |
+| invented-detail-swipe.webp | invented-detail | docs/assets/screenshot-swipe.png |
+| locale-crash.webp | locale-crash | docs/assets/screenshot.png |
+| paper-surgery.webp | paper-surgery | docs/assets/screenshot.png |
+| memory-mirror.webp | memory-mirror | docs/assets/screenshot-overview.png |
+
+IntentWeft is a local CLI/skill rather than a hosted web app. Its panel reproduces actual `evidence.py check` output for the repository's `report.example.json`, marked as a synthetic example. Setup and worked-review links are provided instead of an invented screenshot or browser demo.
+
+All eleven hosted demos were opened and their bundled examples exercised on 2026-11-15. This checks their public sample flows, not all features, an installed Handrail extension, or private uploads. Screenshots may show an earlier revision than the live demos.
+
+Do not deploy this document or the PNG masters. Production references the responsive WebP files, project WebP screenshots and SVG mark only.
