@@ -40,4 +40,10 @@ IntentWeft is a local CLI/skill rather than a hosted web app. Its panel reproduc
 
 All eleven hosted demos were opened and their bundled examples exercised on 2026-11-15. This checks their public sample flows, not all features, an installed Handrail extension, or private uploads. Screenshots may show an earlier revision than the live demos.
 
-Do not deploy this document or the PNG masters. Production references the responsive WebP files, project WebP screenshots and SVG mark only.
+## Social preview
+
+`social-share-v1.svg` is the editable, code-designed 1200×630 sharing card. It reuses the exact faceted S mark, navy/ivory/chartreuse palette, brand typography and a geometric idea-taking-form illustration. `social-share-v1.png` is its opaque delivery image; `foundry-mark-v2-512.png` provides a raster brand icon. The reproducible native Windows renderer is `tools/render-social-share.ps1`. These graphics are designed from vector shapes and typography, with no personal photo.
+
+The initial HTML supplies Open Graph image/title/description properties and a large-image Twitter card. All image URLs are absolute HTTPS URLs. The static preview is English, matching the site's default language; switching the page language also updates its runtime title/description/locale. Preview caches and rendering remain controlled by each sharing application. Change the versioned image URL for a future artwork update rather than overwriting it behind a cached URL.
+
+Do not deploy this document, scripts, SVG sharing-card source or project/concept PNG masters. Deploy the referenced responsive WebP files, project WebP screenshots, SVG logo, **social-share-v1.png** and **foundry-mark-v2-512.png**.

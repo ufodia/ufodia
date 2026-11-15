@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+<title id="title">Selimoglu Idea Foundry — Ideas take shape.</title>
+<desc id="description">Software experiments. Practical tools. New possibilities. selimoglu.org</desc>
+<rect width="1200" height="630" fill="#101c2c"/>
+<path d="M74 497H1126" fill="none" stroke="#f3f0e8" stroke-opacity=".22"/>
+<svg x="70" y="58" width="88" height="88" viewBox="0 0 80 80">
+<rect x=".5" y=".5" width="79" height="79" rx="15.5" fill="#121c31" stroke="#f3f0e8" stroke-opacity=".2"/>
+<path d="M58 16H30L17 29V39L45 49H51V53L46 58H22V66H50L63 53V43L35 33H29V29L34 24H58Z" fill="#f3f0e8"/>
+<rect x="60" y="8" width="10" height="10" rx="1" fill="#d6ec69"/>
+</svg>
+<text x="184" y="108" fill="#f3f0e8" font-family="Georgia, serif" font-size="58">Selimoglu</text>
+<text x="188" y="138" fill="#d6ee79" font-family="Arial, sans-serif" font-weight="700" font-size="15" letter-spacing="4">IDEA FOUNDRY</text>
+<text x="70" y="333" fill="#f3f0e8" font-family="Georgia, serif" font-size="78" letter-spacing="-2.6">Ideas take shape.</text>
+<text x="74" y="396" fill="#c9d0d8" font-family="Arial, sans-serif" font-size="23">Software experiments. Practical tools. New possibilities.</text>
+<g fill="none" stroke="#f3f0e8" stroke-opacity=".12">
+<path d="M904 199V437M965 199V437M1026 199V437M1087 199V437M1148 199V437M904 199H1148M904 260H1148M904 321H1148M904 382H1148M904 437H1148"/>
+</g>
+<path d="M930 247L1040 207L1122 260L1012 301Z" fill="#f3f0e8" fill-opacity=".06" stroke="#f3f0e8" stroke-opacity=".45"/>
+<path d="M930 247V351L1012 405V301Z" fill="#f3f0e8" fill-opacity=".035" stroke="#f3f0e8" stroke-opacity=".35"/>
+<path d="M1012 301L1122 260V365L1012 405Z" fill="#d6ee79"/>
+<path d="M1012 301L1080 278V381L1012 405Z" fill="#101c2c" fill-opacity=".12"/>
+<rect x="903" y="192" width="13" height="13" rx="1" fill="#d6ee79"/>
+<text x="74" y="561" fill="#f3f0e8" font-family="Arial, sans-serif" font-weight="700" font-size="23">selimoglu.org</text>
+<path d="M1082 552H1125M1112 539L1125 552L1112 565" fill="none" stroke="#d6ee79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
