@@ -1076,7 +1076,7 @@
       "homeFirstTabFocused": 12,
       "emptySearchResetFocused": 12,
       "javascriptPageErrors": 0,
-      "tabOrientations": "vertical at <=400 and >720 CSS pixels; horizontal at 401â€“720, matching the visual rail.",
+      "tabOrientations": "vertical at <=400 and >720 CSS pixels; horizontal at 401-720, matching the visual rail.",
       "skipLink": "Native hash activation leaves document.activeElement as BODY; the next Tab advances to the main Explore the projects CTA in both languages. Explicit focus on main was not claimed.",
       "sourceSha": "725b12caaef016b56b4bf4212191341d2e6dda9e"
     },
@@ -1327,7 +1327,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "05Back to the futureOUT-OF-ORDER REPLY",
               "x": 230,
               "y": 214.875,
               "width": 180,
@@ -1381,7 +1380,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "05Back to the futureOUT-OF-ORDER REPLY",
               "x": 37,
               "y": 86.8828125,
               "width": 246,
@@ -1443,7 +1441,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Report (JSON)",
               "x": 35,
               "y": 461.9921875,
               "width": 566,
@@ -1497,7 +1494,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Report (JSON)",
               "x": 35,
               "y": 155.01953125,
               "width": 246,
@@ -1559,7 +1555,6 @@
             "focus": {
               "tag": "PRE",
               "id": "",
-              "text": "Local build commands",
               "x": 30,
               "y": 191.984375,
               "width": 580,
@@ -1613,7 +1608,6 @@
             "focus": {
               "tag": "PRE",
               "id": "",
-              "text": "Local build commands",
               "x": 24,
               "y": 70,
               "width": 272,
@@ -1675,7 +1669,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "lens-original",
-              "text": "Original",
               "x": 24,
               "y": 115.9921875,
               "width": 75.203125,
@@ -1729,7 +1722,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "lens-original",
-              "text": "Original",
               "x": 16,
               "y": 199,
               "width": 75.203125,
@@ -1791,7 +1783,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "view-swipe",
-              "text": "Swipe",
               "x": 21,
               "y": 124.9921875,
               "width": 125.421875,
@@ -1845,7 +1836,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "view-swipe",
-              "text": "Swipe",
               "x": 21,
               "y": 222.546875,
               "width": 73.43359375,
@@ -1907,7 +1897,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "en-USPASSED1,234.50expected {\"amount\":1234.5}received {\"amount\":1234.5}Inspect case â†—",
               "x": 48,
               "y": 369.6015625,
               "width": 266.5,
@@ -1961,7 +1950,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "en-USPASSED1,234.50expected {\"amount\":1234.5}received {\"amount\":1234.5}Inspect case â†—",
               "x": 31,
               "y": 105.1953125,
               "width": 258,
@@ -2023,7 +2011,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "privacy-screen",
-              "text": "Privacy screen",
               "x": 53,
               "y": 126.5703125,
               "width": 154.0703125,
@@ -2077,7 +2064,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "privacy-screen",
-              "text": "Privacy screen",
               "x": 37,
               "y": 112.03125,
               "width": 154.0703125,
@@ -2139,7 +2125,6 @@
             "focus": {
               "tag": "TEXTAREA",
               "id": "",
-              "text": "Text for block 1",
               "x": 97,
               "y": 247.0625,
               "width": 481,
@@ -2193,7 +2178,6 @@
             "focus": {
               "tag": "TEXTAREA",
               "id": "",
-              "text": "Text for block 1",
               "x": 80.99609375,
               "y": 119.0546875,
               "width": 193.00390625,
@@ -2255,7 +2239,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Mark reviewed",
               "x": 523.7265625,
               "y": 241.15625,
               "width": 80.2734375,
@@ -2309,7 +2292,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Mark reviewed",
               "x": 75,
               "y": 112.875,
               "width": 80.2734375,
@@ -2371,7 +2353,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "sheet-tab-0",
-              "text": "Revenue",
               "x": 16,
               "y": 409.09375,
               "width": 105.5390625,
@@ -2425,7 +2406,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "sheet-tab-0",
-              "text": "Revenue",
               "x": 16,
               "y": 188.12109375,
               "width": 105.53515625,
@@ -2487,7 +2467,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "The original field reportlab.example",
               "x": 39,
               "y": 309.5390625,
               "width": 468.609375,
@@ -2541,7 +2520,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "The original field reportlab.example",
               "x": 39,
               "y": 179.58203125,
               "width": 143.3984375,
@@ -2603,7 +2581,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "snapshot-A",
-              "text": "AOriginal offerThe sources agree",
               "x": 25,
               "y": 231.671875,
               "width": 295,
@@ -2657,7 +2634,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "snapshot-A",
-              "text": "AOriginal offerThe sources agree",
               "x": 22,
               "y": 100.37890625,
               "width": 138,
@@ -2719,7 +2695,6 @@
             "focus": {
               "tag": "INPUT",
               "id": "project-search",
-              "text": "",
               "x": 20,
               "y": 299.109375,
               "width": 600,
@@ -2773,7 +2748,6 @@
             "focus": {
               "tag": "INPUT",
               "id": "project-search",
-              "text": "",
               "x": 16,
               "y": 170.8046875,
               "width": 288,
@@ -2835,7 +2809,6 @@
             "focus": {
               "tag": "INPUT",
               "id": "project-search",
-              "text": "",
               "x": 20,
               "y": 299.109375,
               "width": 600,
@@ -2889,7 +2862,6 @@
             "focus": {
               "tag": "INPUT",
               "id": "project-search",
-              "text": "",
               "x": 16,
               "y": 170.8046875,
               "width": 288,
@@ -2951,7 +2923,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Upload image PNG Â· JPEG Â· WEBP",
               "x": 39,
               "y": 234.8828125,
               "width": 562,
@@ -3005,7 +2976,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Upload image PNG Â· JPEG Â· WEBP",
               "x": 31,
               "y": 106.8828125,
               "width": 258,
@@ -3067,7 +3037,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Edit stage 01Wake the consolevisible Â· console",
               "x": 39,
               "y": 221.484375,
               "width": 463,
@@ -3121,7 +3090,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Edit stage 01Wake the consolevisible Â· console",
               "x": 33,
               "y": 93.48046875,
               "width": 168,
@@ -3183,7 +3151,6 @@
             "focus": {
               "tag": "INPUT",
               "id": "",
-              "text": "Cue time in seconds",
               "x": 40,
               "y": 234.09375,
               "width": 560,
@@ -3237,7 +3204,6 @@
             "focus": {
               "tag": "INPUT",
               "id": "",
-              "text": "Cue time in seconds",
               "x": 34,
               "y": 106.22265625,
               "width": 252,
@@ -3299,7 +3265,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Bring an offcut photoPNG, JPEG or WebP Â· up to 8 MB+",
               "x": 39,
               "y": 447.484375,
               "width": 562,
@@ -3353,7 +3318,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Bring an offcut photoPNG, JPEG or WebP Â· up to 8 MB+",
               "x": 34,
               "y": 91.1953125,
               "width": 252,
@@ -3415,7 +3379,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "finding-line-amount:lines[2].netAmount",
-              "text": "âœ•1Line 3: quantity Ã— unit price12 Ã— 102.50 = 1,230.00, but the line amount is 1.23.",
               "x": 16,
               "y": 220.1953125,
               "width": 608,
@@ -3469,7 +3432,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "finding-line-amount:lines[2].netAmount",
-              "text": "âœ•1Line 3: quantity Ã— unit price12 Ã— 102.50 = 1,230.00, but the line amount is 1.23.Extracted1.23Expe",
               "x": 16,
               "y": -73.6875,
               "width": 288,
@@ -3531,7 +3493,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "copy-install",
-              "text": "Copy commands â§‰ â€” installation instructions",
               "x": 461.921875,
               "y": 252.4921875,
               "width": 132.078125,
@@ -3585,7 +3546,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "copy-install",
-              "text": "Copy commands â§‰ â€” installation instructions",
               "x": 158.92578125,
               "y": 201.53515625,
               "width": 128.07421875,
@@ -3647,7 +3607,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Close image",
               "x": 580.1953125,
               "y": 37.3671875,
               "width": 28,
@@ -3691,7 +3650,6 @@
             "modalReturn": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Expand experiment screenshot",
               "x": 575,
               "y": 241.7734375,
               "width": 28,
@@ -3720,7 +3678,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Close image",
               "x": 266.59765625,
               "y": 22.6796875,
               "width": 28,
@@ -3764,7 +3721,6 @@
             "modalReturn": {
               "tag": "BUTTON",
               "id": "",
-              "text": "Expand experiment screenshot",
               "x": 260,
               "y": 113.90234375,
               "width": 28,
@@ -3801,7 +3757,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "keep-cue-2",
-              "text": "Keep line",
               "x": 42,
               "y": 240.96875,
               "width": 48.578125,
@@ -3855,7 +3810,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "keep-cue-2",
-              "text": "Keep line",
               "x": 42,
               "y": 113.09375,
               "width": 48.57421875,
@@ -3917,7 +3871,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "pin",
-              "text": "+ Pin selection",
               "x": 486.90625,
               "y": 241,
               "width": 100.09375,
@@ -3971,7 +3924,6 @@
             "focus": {
               "tag": "BUTTON",
               "id": "pin",
-              "text": "+ Pin selection",
               "x": 197.32421875,
               "y": 104.89453125,
               "width": 91.67578125,
@@ -4033,7 +3985,6 @@
             "focus": {
               "tag": "SELECT",
               "id": "filter",
-              "text": "All findingsNeeds reviewReviewedQuantitiesConditionsScope and timingProtected wording",
               "x": 50,
               "y": 294.5078125,
               "width": 135,
@@ -4087,7 +4038,6 @@
             "focus": {
               "tag": "SELECT",
               "id": "filter",
-              "text": "All findingsNeeds reviewReviewedQuantitiesConditionsScope and timingProtected wording",
               "x": 167.5,
               "y": 110.01953125,
               "width": 115.5,
