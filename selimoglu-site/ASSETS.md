@@ -16,6 +16,10 @@ Create a premium editorial still life about structured thinking: translucent gla
 
 Files: `foundry-process-v2.png`, `foundry-process-v2.webp`, `foundry-process-v2-800.webp`.
 
+## GitHub showcase concept
+
+Generated editorial artwork for the repository showcase: interlocking dark titanium rings and luminous glass threads represent collaboration and ideas taking shape. It is conceptual illustration, not a product screenshot. `foundry-constellation-v1.png` is the master; `foundry-constellation-v1.webp` is the compressed delivery asset.
+
 ## Real project screenshots
 
 The project previews are genuine interface screenshots from the projects' public GitHub repositories, retrieved on 2026-11-15. They are not generated mockups. PNG masters are retained under `assets/projects/`; lossless WebP copies are used on the website. Their decoded RGB pixels were compared with the masters. Demo examples are synthetic. The Handrail screenshot shows the installed extension; the website links to its public practice page and explains the installation requirement.
