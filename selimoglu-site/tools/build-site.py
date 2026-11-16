@@ -75,7 +75,8 @@ source_nodes = list(nodes(source))
 panels = {node.attrs['data-panel']: node for node in source_nodes if 'data-panel' in node.attrs}
 for option in (node for node in source_nodes if 'data-select' in node.attrs):
     panel = panels[option.attrs['data-select']]
-    descriptions = [node for node in nodes(panel) if node.tag == 'p' and 'data-en' in node.attrs][:1]
+    copy = next(node for node in nodes(panel) if node.attrs.get('class') == 'panel-copy')
+    descriptions = [node for node in copy.children if isinstance(node, Node) and node.tag == 'p' and 'data-en' in node.attrs][:1]
     labels = [node for node in nodes(option) if 'data-en' in node.attrs] + descriptions
     option.attrs['data-search'] = ' '.join([text(option)] + [node.attrs[lang] for node in labels for lang in ('data-en', 'data-tr')])
 
@@ -176,5 +177,12 @@ overview = '''# Selimoglu Idea Foundry
 ## Public projects
 '''
 overview += '\n'.join(f'- [{name}]({url}): {description}' for name, description, url in project_records)
-overview += '\n\n## Context\nThe website labels conceptual artwork separately from real project screenshots. Hosted demos use examples; IntentWeft is a local developer skill/CLI with setup and worked-review links. Project panels explain limitations. This file is a concise navigation aid, not a guarantee of indexing or AI citation.\n'
+featured = [node for node in source_nodes if 'data-featured-repo' in node.attrs]
+overview += '\n\n## GitHub community favourites\n'
+for node in featured:
+    descendants = list(nodes(node))
+    link = next(item for item in descendants if item.tag == 'a')
+    description = next(item.attrs['data-en'] for item in descendants if item.tag == 'p')
+    overview += f"- [{node.attrs['data-featured-repo']}]({link.attrs['href']}): {description}\n"
+overview += '\n\n## Context\nThe website labels conceptual artwork separately from real project screenshots. Hosted demos use examples; IntentWeft and Venturemorph are portable skills with setup links. Project panels explain limitations. This file is a concise navigation aid, not a guarantee of indexing or AI citation.\n'
 (ROOT / 'llms.txt').write_text(overview, encoding='utf-8')

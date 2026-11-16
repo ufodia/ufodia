@@ -20,6 +20,17 @@
 - [LocaleCrash](https://github.com/ufodia/locale-crash): Explore English and Turkish regressions in structured-output parsing.
 - [Paper Surgery](https://github.com/ufodia/paper-surgery): Repair PDF reading order and extracted text before using them with AI.
 - [Memory Mirror](https://github.com/ufodia/memory-mirror): Review sensitive details in AI chat exports locally.
+- [Venturemorph](https://github.com/ufodia/venturemorph): A portable AI skill that revisits product, growth and brand decisions as evidence changes.
+
+## GitHub community favourites
+- [BTC-PUZZLE](https://github.com/ufodia/BTC-PUZZLE): A CPU-based search tool for Bitcoin puzzle keyspaces.
+- [bitcoin-public-key-to-private-key](https://github.com/ufodia/bitcoin-public-key-to-private-key): An elliptic-curve arithmetic experiment with limited random candidate search; not a general private-key converter.
+- [Token-Buy-Tracker-TelegramBot](https://github.com/ufodia/Token-Buy-Tracker-TelegramBot): A Python Telegram bot for monitoring token buys using external services and configured credentials.
+- [Bitcoin-Keyhound](https://github.com/ufodia/Bitcoin-Keyhound): An exploratory Python toolkit for ECDSA signature and nonce analysis.
+- [Bitcoin-Puzzle-Address-Generator](https://github.com/ufodia/Bitcoin-Puzzle-Address-Generator): Generates toy Bitcoin address puzzles; not a secure wallet generator.
+- [auto-py-to-exe](https://github.com/ufodia/auto-py-to-exe): A fork of brentvollebregt/auto-py-to-exe: a PyInstaller-based GUI for packaging Python scripts.
+- [Bitcoin-Private-Key-Predictor](https://github.com/ufodia/Bitcoin-Private-Key-Predictor): A historical TensorFlow experiment; it does not demonstrate real private-key prediction or recovery.
+
 
 ## Context
-The website labels conceptual artwork separately from real project screenshots. Hosted demos use examples; IntentWeft is a local developer skill/CLI with setup and worked-review links. Project panels explain limitations. This file is a concise navigation aid, not a guarantee of indexing or AI citation.
+The website labels conceptual artwork separately from real project screenshots. Hosted demos use examples; IntentWeft and Venturemorph are portable skills with setup links. Project panels explain limitations. This file is a concise navigation aid, not a guarantee of indexing or AI citation.
