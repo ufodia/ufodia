@@ -21,6 +21,8 @@
 - [Paper Surgery](https://github.com/ufodia/paper-surgery): Repair PDF reading order and extracted text before using them with AI.
 - [Memory Mirror](https://github.com/ufodia/memory-mirror): Review sensitive details in AI chat exports locally.
 - [Venturemorph](https://github.com/ufodia/venturemorph): A portable AI skill that revisits product, growth and brand decisions as evidence changes.
+- [Formsemble](https://github.com/ufodia/formsemble): A product-aware design skill for carrying interface work from current behavior through implementation to an honest review.
+- [Demandweft](https://github.com/ufodia/demandweft): A buyer-question-to-proof skill for building a useful decision aid and learning without forcing a sale or a share.
 
 ## GitHub community favourites
 - [BTC-PUZZLE](https://github.com/ufodia/BTC-PUZZLE): A CPU-based search tool for Bitcoin puzzle keyspaces.
