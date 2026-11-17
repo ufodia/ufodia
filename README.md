@@ -49,6 +49,8 @@ The hosted demo is fictional and key-free. Real website checks and optional LLM 
 | :--- | :--- |
 | [**IntentWeft**](https://github.com/ufodia/intentweft) | Connect project intent to evidence and verification when AI changes code. |
 | [**Venturemorph**](https://github.com/ufodia/venturemorph) | Revisit product, growth, and brand decisions as evidence changes. |
+| [**Formsemble**](https://github.com/ufodia/formsemble) | Carry interface work from real product behavior through implementation to reviewable evidence. |
+| [**Demandweft**](https://github.com/ufodia/demandweft) | Turn a buyer's open question into useful proof, then measure customer value and business outcomes separately. |
 
 Explore each repository for its supported assistants, installation steps, and examples.
 
