@@ -1,2 +1,5 @@
-# Optional, for regenerating responsive project screenshots only.
+# Optional, for regenerating responsive project screenshots and artwork crops.
 Pillow==12.2.0
+# Optional, for rebuilding the subset web fonts with tools/build-fonts.py.
+fonttools==4.64.0
+brotli==1.2.0

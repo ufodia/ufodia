@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="title desc">
+  <title id="title">Selimoglu Idea Foundry</title>
+  <desc id="desc">A chartreuse seed beside a titanium ribbon folded into a faceted S: an idea taking form.</desc>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1929"/><stop offset=".6" stop-color="#060d18"/></linearGradient>
+    <linearGradient id="top" x1="30" y1="0" x2="58" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f8f0e2"/><stop offset="1" stop-color="#dfd1ba"/></linearGradient>
+    <linearGradient id="sweep" x1="17" y1="36" x2="63" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d6c7af"/><stop offset=".45" stop-color="#fdf8ee"/><stop offset="1" stop-color="#cfbfa6"/></linearGradient>
+    <linearGradient id="base" x1="22" y1="0" x2="50" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e9dcc7"/><stop offset="1" stop-color="#c4b39a"/></linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="79" height="79" rx="15.5" fill="url(#tile)" stroke="#cdbda4" stroke-opacity=".3"/>
+  <!-- One ribbon, seven faces. The full outline sits underneath so no seam shows between faces. -->
+  <path d="M58 16H30L17 29V39L45 49H51V53L46 58H22V66H50L63 53V43L35 33H29V29L34 24H58Z" fill="#c4b39a"/>
+  <path d="M58 16H30L34 24H58Z" fill="url(#top)"/>
+  <path d="M30 16L17 29H29L34 24Z" fill="#c6b59c"/>
+  <path d="M17 29V39L35 33H29V29Z" fill="#a3927a"/>
+  <path d="M17 39L45 49L63 43L35 33Z" fill="url(#sweep)"/>
+  <path d="M63 43V53H51V49H45Z" fill="#af9e85"/>
+  <path d="M63 53L50 66L46 58L51 53Z" fill="#8e7e68"/>
+  <path d="M50 66H22V58H46Z" fill="url(#base)"/>
+  <!-- The seed: a cut chartreuse crystal at the ribbon's tip. -->
+  <rect x="60" y="8" width="10" height="10" rx="1" fill="#d6ee79"/>
+  <path d="M60.3 17.7L69.7 8.3V17A1 1 0 0 1 68.7 18H61A1 1 0 0 1 60.3 17.7Z" fill="#b9d94f"/>
+</svg>

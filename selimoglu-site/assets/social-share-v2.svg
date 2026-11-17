@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+<title id="title">Selimoglu Idea Foundry — Ideas take shape.</title>
+<desc id="description">Software experiments. Practical tools. New possibilities. selimoglu.org</desc>
+<!-- Editable source of the sharing card. Open it from the site root (python -m http.server) so the fonts and artwork resolve, then capture it at 1200x630. -->
+<style>
+@font-face{font-family:"Fraunces";src:url("fonts/fraunces-v1.woff2") format("woff2");font-weight:100 700}
+@font-face{font-family:"Instrument Sans";src:url("fonts/instrument-sans-v1.woff2") format("woff2");font-weight:400 700}
+.display{font-family:"Fraunces",Georgia,serif}
+.text{font-family:"Instrument Sans",Arial,sans-serif}
+.w1{font-weight:200;font-variation-settings:"SOFT" 100}
+.w2{font-weight:370;font-variation-settings:"SOFT" 55}
+.w3{font-weight:620;font-variation-settings:"SOFT" 0}
+</style>
+<defs>
+<linearGradient id="fade" x1="250" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<mask id="art"><rect width="1200" height="630" fill="url(#fade)"/></mask>
+<linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1929"/><stop offset=".6" stop-color="#060d18"/></linearGradient>
+<linearGradient id="top" x1="30" y1="0" x2="58" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f8f0e2"/><stop offset="1" stop-color="#dfd1ba"/></linearGradient>
+<linearGradient id="sweep" x1="17" y1="36" x2="63" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d6c7af"/><stop offset=".45" stop-color="#fdf8ee"/><stop offset="1" stop-color="#cfbfa6"/></linearGradient>
+<linearGradient id="base" x1="22" y1="0" x2="50" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e9dcc7"/><stop offset="1" stop-color="#c4b39a"/></linearGradient>
+</defs>
+<rect width="1200" height="630" fill="#060d18"/>
+<image href="foundry-hero-v2.webp" xlink:href="foundry-hero-v2.webp" x="116" y="0" width="1120" height="630" mask="url(#art)"/>
+<svg x="70" y="60" width="80" height="80" viewBox="0 0 80 80">
+<rect x=".5" y=".5" width="79" height="79" rx="15.5" fill="url(#tile)" stroke="#cdbda4" stroke-opacity=".3"/>
+<path d="M58 16H30L17 29V39L45 49H51V53L46 58H22V66H50L63 53V43L35 33H29V29L34 24H58Z" fill="#c4b39a"/>
+<path d="M58 16H30L34 24H58Z" fill="url(#top)"/>
+<path d="M30 16L17 29H29L34 24Z" fill="#c6b59c"/>
+<path d="M17 29V39L35 33H29V29Z" fill="#a3927a"/>
+<path d="M17 39L45 49L63 43L35 33Z" fill="url(#sweep)"/>
+<path d="M63 43V53H51V49H45Z" fill="#af9e85"/>
+<path d="M63 53L50 66L46 58L51 53Z" fill="#8e7e68"/>
+<path d="M50 66H22V58H46Z" fill="url(#base)"/>
+<rect x="60" y="8" width="10" height="10" rx="1" fill="#d6ee79"/>
+<path d="M60.3 17.7L69.7 8.3V17A1 1 0 0 1 68.7 18H61A1 1 0 0 1 60.3 17.7Z" fill="#b9d94f"/>
+</svg>
+<text class="display" x="170" y="105" fill="#f3f0e8" font-size="50" font-weight="600" letter-spacing="-1">Selimoglu</text>
+<text class="text" x="172" y="133" fill="#cdbda4" font-size="18" font-weight="500" letter-spacing=".8">Idea Foundry</text>
+<text class="display" x="66" y="336" fill="#f3f0e8" font-size="112" letter-spacing="-4.5"><tspan class="w1">Ideas</tspan> <tspan class="w2">take</tspan></text>
+<text class="display" x="66" y="436" fill="#f3f0e8" font-size="112" letter-spacing="-4.5"><tspan class="w3">shape</tspan><tspan class="w3" fill="#d6ee79">.</tspan></text>
+<text class="text" x="72" y="498" fill="#bfcbd6" font-size="22">Software experiments. Practical tools. New possibilities.</text>
+<text class="text" x="72" y="566" fill="#f3f0e8" font-size="23" font-weight="600">selimoglu.org</text>
+</svg>

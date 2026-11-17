@@ -1,7 +1,7 @@
 """Build crawlable EN/TR pages and discovery files with Python's standard library.
 
 Run: python tools/build-site.py
-Edit src/page.html and assets/site-v5.js, not the generated index pages.
+Edit src/page.html and assets/site-v6.js, not the generated index pages.
 """
 from copy import deepcopy
 from dataclasses import dataclass, field
@@ -77,8 +77,22 @@ for option in (node for node in source_nodes if 'data-select' in node.attrs):
     panel = panels[option.attrs['data-select']]
     copy = next(node for node in nodes(panel) if node.attrs.get('class') == 'panel-copy')
     descriptions = [node for node in copy.children if isinstance(node, Node) and node.tag == 'p' and 'data-en' in node.attrs][:1]
-    labels = [node for node in nodes(option) if 'data-en' in node.attrs] + descriptions
+    questions = [node for node in nodes(panel) if node.attrs.get('class') == 'panel-question']
+    labels = [node for node in nodes(option) if 'data-en' in node.attrs] + descriptions + questions
     option.attrs['data-search'] = ' '.join([text(option)] + [node.attrs[lang] for node in labels for lang in ('data-en', 'data-tr')])
+
+# Copy may cite the collection's size as {projects} and {demos}; both are counted here so they cannot drift.
+hosted = [panel for panel in panels.values() if any(
+    'demo-link' in node.attrs.get('class', '') and not node.attrs.get('href', '').startswith('https://github.com/')
+    for node in nodes(panel))]
+counts = {'{projects}': str(len(panels)), '{demos}': str(len(hosted))}
+
+
+def fill(value):
+    for token, number in counts.items():
+        value = value.replace(token, number)
+    return value
+
 
 descriptions = {
     'en': 'Selimoglu Idea Foundry is an independent software and R&D atelier. Explore open-source experiments in AI review, privacy, documents and practical tools.',
@@ -91,11 +105,11 @@ for language in ('en', 'tr'):
     all_nodes = list(nodes(document))
     for node in all_nodes:
         if 'data-en' in node.attrs and 'data-tr' in node.attrs:
-            node.children = [node.attrs['data-' + language]]
+            node.children = [fill(node.attrs['data-' + language])]
         for attr in ('alt', 'aria', 'placeholder'):
             translated = node.attrs.get('data-' + language + '-' + attr)
             if translated is not None:
-                node.attrs['aria-label' if attr == 'aria' else attr] = translated
+                node.attrs['aria-label' if attr == 'aria' else attr] = fill(translated)
         node.attrs = {key: value for key, value in node.attrs.items() if not key.startswith(('data-en', 'data-tr'))}
         if node.tag == 'html':
             node.attrs['lang'] = language
@@ -145,7 +159,7 @@ for language in ('en', 'tr'):
     graph = {'@context': 'https://schema.org', '@graph': [
         {'@type': 'Organization', '@id': BASE + '#atelier', 'name': 'Selimoglu Idea Foundry',
          'alternateName': 'Selimoglu', 'url': BASE, 'description': descriptions[language],
-         'logo': {'@type': 'ImageObject', 'url': BASE + 'assets/foundry-mark-v2-512.png', 'width': 512, 'height': 512}},
+         'logo': {'@type': 'ImageObject', 'url': BASE + 'assets/foundry-mark-v3-512.png', 'width': 512, 'height': 512}},
         {'@type': 'WebSite', '@id': BASE + '#website', 'url': BASE, 'name': 'Selimoglu Idea Foundry',
          'alternateName': 'Selimoglu', 'inLanguage': ['en', 'tr'], 'publisher': {'@id': BASE + '#atelier'}},
         {'@type': 'CollectionPage', '@id': page_url + '#page', 'url': page_url, 'name': titles[language],
@@ -156,12 +170,13 @@ for language in ('en', 'tr'):
     destination = ROOT / ('tr/index.html' if language == 'tr' else 'index.html')
     destination.parent.mkdir(exist_ok=True)
     destination.write_text('<!doctype html>\n' + render(document).strip() + '\n', encoding='utf-8')
-    print(destination.relative_to(ROOT), destination.stat().st_size, 'bytes')
+    assert '{projects}' not in destination.read_text(encoding='utf-8') and '{demos}' not in destination.read_text(encoding='utf-8')
+    print(destination.relative_to(ROOT), destination.stat().st_size, 'bytes', counts)
 
 (ROOT / 'sitemap.xml').write_text('''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://selimoglu.org/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://selimoglu.org/tr/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://selimoglu.org/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://selimoglu.org/tr/</loc><lastmod>2026-11-17</lastmod></url>
 </urlset>
 ''', encoding='utf-8')
 (ROOT / 'robots.txt').write_text('User-agent: *\nDisallow: /nope/\n\nSitemap: https://selimoglu.org/sitemap.xml\n', encoding='utf-8')
